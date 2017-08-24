@@ -1,0 +1,215 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\usepackage{enumitem}
+\setlist{leftmargin=0em}
+\renewcommand{\labelitemi}{$\cdot$}
+
+%%MINE THAT I ADDED
+
+\usepackage{lipsum}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+%---------------------------
+
+\name{Katherine A. Keith} % Your name
+\address{
+%(406)~$\cdot$~539~$\cdot$~3888 \\ 
+kkeith@cs.umass.edu} % Your phone number and email
+
+\begin{document}
+
+%%----------------------------------------------------------------------------------------
+%%	RESEARCH INTERESTS
+%%----------------------------------------------------------------------------------------
+%
+%\begin{rSection}{Research Interests}
+%Natural language processing, machine learning, computational social science 
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of Massachusetts Amherst} \hfill {2016--Present} \\ 
+M.S.~/~Ph.D. in Computer Science \hfill {\em Amherst, MA} \\
+
+{\bf Lewis \& Clark College} \hfill {2011--2015} \\ 
+B.A. in Mathematics (departmental honors, summa cum laude) \hfill {\em Portland, OR} \\
+Minor: Chinese \\
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research Experience}
+
+\begin{rSubsection}{Graduate Research Assistant}{September 2016--Present}{University of Massachusetts, Amherst}{Amherst, MA}
+\item Natural language processing, machine learning, and computational social science research
+\item Advisor: Dr. Brendan O'Connor 
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Undergraduate Research Assistant}{May 2014--August 2014}{Lewis \& Clark College}{Portland, OR}
+\item Developed an agent-based simulation of intergenerational wealth transfer in medieval England
+\item Advisor: Dr. Clifford Bekar
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Teaching Experience}
+
+\begin{rSubsection}{Fulbright English Teaching Assistant}{August 2015--June 2016}{U.S. Department of State}{Kinmen, Taiwan}
+\item Taught first through sixth grade ESL courses in a public elementary school
+\item Facilitated multi-cultural dialogue and programming
+\end{rSubsection}
+
+\begin{rSubsection}{Mathematics Tutor}{January 2012--May 2015}{Lewis \& Clark College}{Portland, OR}
+\item Tutored Calculus I, Calculus II ,and Linear Algebra for private one-on-one and group sessions
+\item Tutor in the Symbolic and Quantitative Resource Center (SQRC) 
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	SELECTED PUBLICATIONS 
+%----------------------------------------------------------------------------------------
+%
+\begin{rSection}{Selected Publications}
+\textbf{Katherine A. Keith}, Abram Handler, Michael Pinkham, Cara Magliozzi, Joshua McDuffie, and Brendan O'Connor. Identifying civilians killed by police with distantly supervised entity-event extraction. In \emph{Proceedings of Empirical Methods in Natural Language Processing (EMNLP)}. 2017. 
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATIONS AND POSTERS  
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Presentations \& Posters}
+
+\begin{itemize}
+\item ``Temporal, Embedding-Based Soft Deduplication of Police Killing Events." \emph{Database Design \& Implementation} final class project (2017) 
+\item  ``Probabilistic Modeling of Trending Words on Twitter." \emph{Statistical Machine Learning} final class project (2016) 
+\item ``Machine Learning Classification of Job Loss Twitter Messages." \emph{Introduction to Natural Language Processing} final class project (2016) 
+\item ``Extending the Pontryagin Maximum Principle of Optimal Control Theory for Inequality Constraints and Discounting." \emph{Lewis \& Clark College Mathematics Department Senior Honors Thesis} (2015)
+\item ``An Agent-Based Simulation of Intergenerational Mobility Amongst the English Medieval Peasantry." \emph{Andrew W. Mellon Student-Faculty Research Project} (2014) 
+\end{itemize} 
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	SELECTED COURSES 
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Selected Courses}
+Probabilistic Graphical Models, Database Design \& Implementation, Statistical Machine Learning, Introduction to Natural Language Processing, Advanced Probability \& Statistics, Real Analysis, Abstract Algebra, Game Theory, Numerical Analysis, Differential Equations, Linear Algebra 
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	SERVICE 
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Service}
+
+\begin{rrSubsection}{Research Experience for Undergraduates (REU) Mentor}{Summer 2017}{University of Massachusetts Amherst, College of Computer Science}{}
+\end{rrSubsection}
+
+\begin{rrSubsection}{Social Committee Member}{January 2016--Present}
+{University of Massachusetts Amherst Computer Science Women's Group}{}
+\end{rrSubsection}
+
+\begin{rrSubsection}{Women in Engineering and Computing Career Day}{October 24, 2016}
+{
+Student Volunteer: Play It/Code It - An Introduction to Programming with Games and Scratch \\
+University of Massachusetts Amherst}{}
+\end{rrSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+%Machine learning modeling & CRF's, Logistic Regression, SVM's, Gibbs sampling, EM algorithm \\
+%Protocols \& APIs & XML, JSON, SOAP, REST \\
+Primary programming language & Python \\
+Databases & SQL, Postgres\\
+Data science tools & R, scipy, scikit-learn, numpy \\
+%Deep learning libraries & Tensorflow, Pytorch \\
+%Development Tools & sublime, emacs, tmux \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Awards \& Honors}
+\begin{itemize}
+\item Computing Research Association of Women (CRAW) Graduate Cohort Member (2017) 
+\item Paul Utgoff Memorial Graduate Scholarship in Machine Learning (2016) 
+\item Fulbright ETA Grantee with the U.S. Department of State (2015--16)
+\item Rhodes Scholarship Finalist (2015) 
+\item Marshall Scholarship Finalist (2015) 
+\item Rena Ratte Award (2015) 
+\item Robert B. Pamplin Jr. Society Fellow (2012--2015)
+\item Dean's List, Lewis \& Clark College (2011--2015)
+\item Project Pengyou National Leadership Fellow (2014) 
+\item Phi Beta Kappa Member (2014--2015)
+\item Pi Mu Epsilon Member (2014--2015)
+\item Barbara Hirschi Neely Four-Year Full-Tuition Scholarship Recipient (2011--2015)
+\item NCAA Division III Cross-Country All-Academic (2012) 
+\item Lewis \& Clark Cross-Country Four-Year Varsity Letter Winner (2011--2015)
+\end{itemize} 
+
+\end{rSection}
+
+\blfootnote{Updated: 2017-07-26}
+
+\bigskip
+
+
+
+\end{document}
