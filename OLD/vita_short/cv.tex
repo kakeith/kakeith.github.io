@@ -1,0 +1,141 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\usepackage{enumitem}
+\setlist{leftmargin=0em}
+\renewcommand{\labelitemi}{$\cdot$}
+
+%%MINE THAT I ADDED
+
+\usepackage{lipsum}
+\usepackage{datetime}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+%---------------------------
+
+\name{Katherine A. Keith} % Your name
+\address{
+%(406)~$\cdot$~539~$\cdot$~3888 \\ 
+kkeith@cs.umass.edu} % Your phone number and email
+
+\begin{document}
+
+%%----------------------------------------------------------------------------------------
+%%	RESEARCH INTERESTS
+%%----------------------------------------------------------------------------------------
+%
+%\begin{rSection}{Research Interests}
+%Natural language processing, machine learning, computational social science 
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of Massachusetts Amherst} \hfill {2016--Present} \\ 
+M.S.~/~Ph.D. in Computer Science (in progress) \hfill {\em Amherst, MA} \\
+
+{\bf Lewis \& Clark College} \hfill {2011--2015} \\ 
+B.A. in Mathematics, departmental honors, summa cum laude \hfill {\em Portland, OR}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research Experience}
+
+\begin{rSubsection}{Graduate Research Assistant}{September 2016--Present}{University of Massachusetts, Amherst}{Amherst, MA}
+\item Advisor: Dr. Brendan O'Connor 
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   SELECTED PUBLICATIONS 
+%----------------------------------------------------------------------------------------
+%
+\begin{rSection}{Peer-Reviewed Publications}
+Uncertainty-aware generative models for inferring document class prevalence.
+\textbf{Katherine A. Keith} and Brendan O'Connor. 
+In \emph{Proceedings of Empirical Methods in Natural Language Processing (EMNLP)}. 2018. 
+
+Monte Carlo Syntax Marginals for Exploring and Using Dependency Parses.
+\textbf{Katherine A. Keith}, Su Lin Blodgett, and Brendan O'Connor.
+In \emph{Proceedings of North American Chapter of the Association for Computational Linguistics} (NAACL). 2018.
+
+Identifying civilians killed by police with distantly supervised entity-event extraction. 
+\textbf{Katherine A. Keith}, Abram Handler, Michael Pinkham, Cara Magliozzi, Joshua McDuffie, and Brendan O'Connor. In \emph{Proceedings of Empirical Methods in Natural Language Processing (EMNLP)}. 2017. 
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	INDUSTRY EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Industry Experience}
+
+\begin{rSubsection}{Research Intern}{May--August 2018}{CTO Data Science Team, Bloomberg L.P.}{New York, New York}
+\item Mentor: Amanda Stent
+\item Correlated stock market signals with text of earnings call transcripts 
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Teaching Experience}
+
+\begin{rSubsection}{Graduate Teaching Assistant \\ CS685: Advanced Natural Language Processing}{Spring 2018}{University of Massachusetts Amherst}{}
+\item Assisted students with homework and conceptual questions during weekly office hours
+\item Graded literature review assignment and in-class presentations 
+\item Helped to design homeworks
+\end{rSubsection}
+
+\begin{rSubsection}{Fulbright English Teaching Assistant}{August 2015--June 2016}{U.S. Department of State}{Kinmen, Taiwan}
+\item Taught first through sixth grade ESL courses in a public elementary school
+\item Facilitated multi-cultural dialogue and programming
+\end{rSubsection}
+
+\end{rSection}
+
+%\blfootnote{Updated: \today}
+
+%\bigskip
+
+\end{document}
