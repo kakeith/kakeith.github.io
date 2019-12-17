@@ -31,22 +31,62 @@
         <br>
         <b>Room:</b> TBD
         <br>
-        <b>Office hours:</b> TBD
+        <b>Textbook:</b> TBD
+        <br>
+        <b>Office hours:</b> Tues 1-3pm, Fri 9:30-11:30am, Clapp 200
+        <br>
+        <b>Piazza</b>: <a href="piazza.com/mtholyoke/spring2020/cs335/home">piazza.com/mtholyoke/spring2020/cs335/home</a>
+        <br>
+        <b>Gradescope</b>: 
         </p>
-
-
-<!--  Grading  -->
-<hr/>
-<h1>Grading</h1>
-    <li>Homeworks (4) &mdash; 40% </li>
-    <li> Quizzes (2) &mdash; 20% </li>
-    <li> Project &mdash; 30% </li>
-    <li> Class participation &mdash; 10% </li>
 
 <!--  Learning Goals  -->
 <hr/>
 <h1>Learning Goals</h1>
     
+    Students will learn <b>fundamental concepts in machine learning</b> and by the end of the course will be able to:
+    <li>Derive analytical solutions for mathematical fundamentals of ML (partial derivatives, matrix multiplication)</li>  
+    <li>Identify the relationship between regularization and training size on training and test accuracy</li>
+    <li>Derive and implement learning algorithms</li>
+    <li>Bias-variance tradeoff</li>
+    <li>Implement a backpropagation algorithm by hand</li>
+    <li>Bias-variance tradeoff</li>
+    
+    </br>
+    In regards to <b>application of machine learning</b> to a data science projects, students will leave the course able to: 
+    <li>Identify important machine learning problems</li>
+    <li>Technically-proficient writing</li>
+    <li>Verbally explain problems</li>
+
+<!--  Grading  -->
+<hr/>
+<h1>Grading</h1>
+    <li>Homeworks (4) &mdash; 40% </li>
+    <li> "Celebrations of learning" (2) &mdash; 20% </li>
+    <li> Project &mdash; 30% </li>
+    <li> Class engagement &mdash; 10% </li>
+
+<br>
+<br>
+The <b>project</b> grade (30%) is further broken down to: 
+    <li>Idea proposal &mdash; 2.5% </li>
+    <li>Paper selection &mdash; 2.5% </li>
+    <li> Literature review &mdash; 5% </li>
+    <li> Project plan &mdash; 5% </li>
+    <li> Final presentation (poster session) &mdash; 5% </li>
+    <li> Final report &mdash; 10% </li>
+
+<br>
+Class engagement grades are a composite of non-graded assignments including but not limited to: (a) in-class worksheets, (b) posting on Piazza, (c) writing up scribe notes. 
+
+<br>
+<br>
+Homework deadlines are strict. Homework not turned in ontime will NOT be accepted. 
+
+<br>
+<br>
+There will be two ``celebrations of learning." These will be in-class, closed-book exams.  
+
 
 <!--  Course schedule -->
 <hr/> 
@@ -68,7 +108,7 @@
     <td rowspan="3"><div align="center">Week 1</div></td>
     <td>Jan 21</td>
     <td align=center>Tu</td>
-    <td></td> <!-- topic -->
+    <td>Introduction and Syllabus</td> <!-- topic -->
     <td></td> <!-- reading -->
     <td rowspan="3" bgcolor=pink><div align="center">
         Homework 0
@@ -80,7 +120,7 @@
     <tr>
     <td>Jan 23</td>
     <td align=center>Th</td>
-    <td></td> <!-- topic -->
+    <td>Linear Regression in one variable</td> <!-- topic -->
     <td></td> <!-- reading -->
     <td></td> <!-- homework -->
     <td></td> <!-- project -->
@@ -100,7 +140,7 @@
     <td rowspan="3"><div align="center">Week 2</div></td>
     <td>Jan 28</td>
     <td align=center>Tu</td>
-    <td></td> <!-- topic -->
+    <td>Gradient descent</td> <!-- topic -->
     <td></td> <!-- reading -->
     <td></td> <!-- homework -->
     <td></td> <!-- project -->
@@ -109,7 +149,7 @@
     <tr>
     <td>Jan 30</td>
     <td align=center>Th</td>
-    <td></td> <!-- topic -->
+    <td>Linear algebra and vectorized code</td> <!-- topic -->
     <td></td> <!-- reading -->
     <td rowspan="4" bgcolor=pink><div align="center">
         Homework 1
@@ -122,7 +162,7 @@
     <tr>
     <td>4th hour</td>
     <td align=center>Fri</td>
-    <td>Linear algebra review</td> <!-- topic -->
+    <td>Python/Numpy/Jupyter review</td> <!-- topic -->
     <td></td>
     <td></td> <!-- project -->
     </tr>
@@ -131,7 +171,7 @@
     <td rowspan="3"><div align="center">Week 3</div></td>
     <td>Feb 4</td>
     <td align=center>Tu</td>
-    <td></td> <!-- topic -->
+    <td>Multivariate linear regression</td> <!-- topic -->
     <td></td> <!-- reading -->
     <td></td>
     </tr>   
@@ -141,16 +181,13 @@
     <td align=center>Th</td>
     <td></td> <!-- topic -->
     <td></td> <!-- reading -->
-    <td rowspan="5" bgcolor="#33FF33"><div align="center">
-    <a href="ideaProposal/ideaProposal.pdf">Idea Proposal </a> assignment
-    <br/>
-    due: W Feb 21, 2018, 9:00AM EST</div></td>
+    <td></td> <!-- hw -->
     </tr>
 
     <tr>
     <td>4th hour</td>
     <td align=center>Fri</td>
-    <td>Python review</td> <!-- topic -->
+    <td>Probability review </td> <!-- topic -->
     <td></td> <!-- reading -->
     <td rowspan="3" bgcolor=pink><div align="center">
         Homework 2
@@ -164,7 +201,7 @@
     <td rowspan="3"><div align="center">Week 4</div></td>
     <td>Feb 11</td>
     <td align=center>Tu</td>
-    <td></td> <!-- topic -->
+    <td>Logistic Regression</td> <!-- topic -->
     <td></td> <!-- reading -->
     <td></td>
     </tr>
@@ -172,67 +209,78 @@
     <tr>
     <td>Feb 13</td>
     <td align=center>Th</td>
-    <td></td> <!-- topic -->
+    <td>Multiclass classification</td> <!-- topic -->
     <td></td> <!-- reading -->
+    <td></td> <!-- hw -->
     </tr>
 
     <tr>
     <td>4th hour</td>
     <td align=center>Fri</td>
-    <td></td> <!-- topic -->
+    <td>TBD</td> <!-- topic -->
     <td></td> <!-- project -->
     <td rowspan="4" bgcolor=pink><div align="center">
         Homework 3 
         </br>
         Due: Fri Feb 22 11:59pm
         </div></td>
+    <td></td> <!-- hw -->
     </tr>
 
     <tr>
     <td rowspan="3"><div align="center">Week 5</div></td>
     <td>Feb 18</td>
     <td align=center>Tu</td>
-    <td></td> <!-- topic -->
+    <td>Overfitting &  regularization</td> <!-- topic -->
     <td></td> <!-- reading -->
+    <td></td> <!-- hw -->
     </tr>   
     
     <tr>
     <td>Feb 20</td>
     <td align=center>Th</td>
-  <td colspan="2">Project idea presentations</td>
+    <td>Generalization and cross-validation <font color="red">[End Unit 1]</font></td>
+    <td></td> <!-- project -->
+    <td></td> <!-- hw -->
     </tr>
 
     <tr>
     <td>4th hour</td>
     <td align=center>Fri</td>
-    <td></td> <!-- topic -->
+    <td>Review </td> <!-- topic -->
     <td></td> <!-- project -->
+    <td></td> <!-- hw -->
     </tr>
 
     <tr>
     <td rowspan="3"><div align="center">Week 6</div></td>
     <td>Feb 25</td>
     <td align=center>Tu</td>
-    <td></td> <!-- topic -->
+    <td>Project descriptions and Ethics in ML</td> <!-- topic -->
     <td></td> <!-- reading -->
+    <td></td> <!-- reading -->
+    <td rowspan="6" bgcolor="#33FF33"><div align="center">
+        Idea Proposal
+    <br/>
+    Due: Mar 6, 11:59pm</div></td>
     </tr>
 
     <tr>
     <td>Feb 27</td>
     <td align=center>Th</td>
-    <td></td> <!-- topic -->
+    <td colspan="2"><font color="red">Celebration of Learning 1</font> (in class)</td> <!-- topic -->
     <td></td> <!-- reading -->
     </tr> 
 
     <tr>
     <td>4th hour</td>
     <td align=center>Fri</td>
-    <td></td> <!-- topic -->
+    <td>Project brainstorm/discussion</td> <!-- topic -->
     <td></td> <!-- project -->
     <td rowspan="5" bgcolor=pink><div align="center">
         Homework 4 
         </br>
-        Due: Thurs Mar 6 11:59pm 
+        Due: Mar 10 11:59pm 
         </div></td>
     </tr>
     </tr>  
@@ -256,7 +304,7 @@
     <tr>
     <td>4th hour</td>
     <td align=center>Fri</td>
-    <td></td> <!-- topic -->
+    <td>Project brainstorm/discussion</td> <!-- topic -->
     <td></td> <!-- project -->
     </tr>
 
@@ -264,9 +312,12 @@
     <td rowspan="3"><div align="center">Week 8</div></td>
     <td>Mar 10</td>
     <td align=center>Tu</td>
-    <td></td> <!-- topic -->
-    <td></td> <!-- reading -->
-    </td>
+    <td>Neural nets + Backprop </td> <!-- topic -->
+    <td><a href="http://cs231n.github.io/optimization-2/">Standford backprop notes</a></td> <!-- reading -->
+    <td rowspan="2" bgcolor="#33FF33"><div align="center">
+        Paper Selection
+        </br>
+        Due: Mar 13 11:59pm </td>
     </tr>
 
     <tr>
@@ -274,6 +325,7 @@
     <td align=center>Th</td>
     <td></td> <!-- topic -->
     <td></td> <!-- reading -->
+    <td></td> <!-- hw -->
     </td>
     </tr>
 
@@ -282,11 +334,17 @@
     <td align=center>Fri</td>
     <td></td> <!-- topic -->
     <td></td> <!-- project -->
+    <td></td> <!-- hw -->
+    <td rowspan="4" bgcolor="#33FF33"><div align="center">
+        Literature Review
+        </br>
+        Due: Mar 27 11:59pm </td>
     </tr> 
 
     <tr>
     <td rowspan="1"><div align="center">Week 9</div></td>
-    <td colspan="4" rowspan="1"><font color="grey">Mid-semester break: no class</font></td>   
+    <td colspan="4" rowspan="1"><font color="grey">Mid-semester break: no class</font></td>
+    <td></td> <!-- hw -->
     </tr>
     
     <tr>
@@ -296,16 +354,13 @@
     <td></td> <!-- topic -->
     <td></td> <!-- reading --> 
     <td></td>
-    <td></td> 
+    <td></td>
 
     <tr>
     <td>Mar 26</td>
     <td align=center>Th</td>
     <td></td> <!-- topic -->
     <td></td> <!-- reading -->
-    <td rowspan="6" bgcolor="#33FF33"><div align="center">
-    <a href="projectPlan/projectPlan.pdf">Project plan </a><br/>
-  Due: Tu April 10, 2018, 9:00AM EDT</td>
     <td></td> 
     </tr>
 
@@ -314,6 +369,11 @@
     <td align=center>Fri</td>
     <td></td> <!-- topic -->
     <td></td> <!-- project -->
+    <td></td> <!-- project -->
+    <td rowspan="7" bgcolor="#33FF33"><div align="center">
+        Project Plan
+        </br>
+        Due: Apr 10 11:59pm </td>
     </tr> 
 
     <tr>
@@ -323,8 +383,7 @@
     <td align=center>Tu</td>
     <td></td> <!-- topic -->
     <td></td> <!-- reading -->
-    <td rowspan="9" bgcolor=pink><div align="center"><a href="hw4/hw4.pdf">Homework 4</a><br/>
-    Due: Tu April 24, 2018, 9:00AM EDT</div></td>
+    <td></td> <!-- hw -->
     </tr>
     
     <tr>
@@ -332,6 +391,7 @@
     <td align=center>Th</td>
      <td></td> <!-- topic -->
     <td></td> <!-- reading -->
+    <td></td> <!-- hw -->
     </tr>
 
     <tr>
@@ -339,6 +399,7 @@
     <td align=center>Fri</td>
     <td></td> <!-- topic -->
     <td></td> <!-- project -->
+    <td></td> <!-- hw -->
     </tr> 
 
     <tr>
@@ -347,6 +408,7 @@
     <td align=center>Tu</td>
      <td></td> <!-- topic -->
     <td></td> <!-- reading -->
+    <td></td> <!-- hw -->
     </td>
     </tr>   
     
@@ -355,6 +417,7 @@
     <td align=center>Th</td>
     <td></td> <!-- topic -->
     <td></td> <!-- reading -->
+    <td></td> <!-- hw -->
     </tr> 
 
     <tr>
@@ -362,6 +425,7 @@
     <td align=center>Fri</td>
     <td></td> <!-- topic -->
     <td></td> <!-- project -->
+    <td></td> <!-- hw -->
     </tr>  
     
     <tr>
@@ -369,69 +433,99 @@
     <td><font color="grey">Apr 14</font></td>
     <td align=center><font color="grey">Tu</font></td>
     <td colspan="2" rowspan="1"><font color="grey">Community Day (no classes)</font></td>
+    <td></td>
+    <td rowspan="7" bgcolor="#33FF33"><div align="center">
+        Project Final Report
+        </br>
+        Due: Apr 28 11:59pm </td>
     </tr>   
     
     <tr>
     <td>Apr 16</td>
     <td align=center>Th</td>
-    <td></td> <!-- topic -->
+    <td><font color="red">[End Unit 2]</font></td> <!-- topic -->
     <td></td> <!-- reading -->
-    <td rowspan="7" bgcolor="#33FF33"><div align="center">
-    <a href="finalReport/finalReport.pdf">Final project report</a><br/>
-    Due: Tu May 1, 2018, 11:55PM EDT</td>
+    <td></td> <!-- hw -->
+    <td></td>
     </tr>
 
     <tr>
     <td>4th hour</td>
     <td align=center>Fri</td>
-    <td></td> <!-- topic -->
+    <td>Review</td> <!-- topic -->
     <td></td> <!-- project -->
+    <td></td> <!-- hw -->
     </tr> 
     
     <tr>
     <td rowspan="3"><div align="center">Week 14</div></td>
     <td>Apr 21</td>
     <td align=center>Tu</td>
-    <td></td> <!-- topic -->
+    <td>Project Work Day</td> <!-- topic -->
     <td></td> <!-- reading -->
+    <td></td> <!-- hw -->
     </tr> 
     
     <tr>
     <td>Apr 23</td>
     <td align=center>Th</td>
-    <td colspan="2"><font color="red">Midterm</font> (in class)<!-- colspan="2" -->
-    <!-- Watch pre-recorded lecture on
-    "Architectural Decay in Software Systems: Symptoms, Causes, and Remedies":
-    <a href="http://podserv.cs.umass.edu:8171/podcastproducer/attachments/9536FF80-5B97-4D36-A954-1DE58050F322/D9E42EAA-6669-4FC3-9329-97EC02DB0CDF.m4v">Video</a>-->
+    <td colspan="2"><font color="red">Celebration of Learning 2</font> (in class)
     </td>
-  <!-- <td> <font color="grey">no class</font> <br/> --> 
-    <!-- optional: 
-    <a href="http://podserv.cs.umass.edu:8171/podcastproducer/attachments/9536FF80-5B97-4D36-A954-1DE58050F322/D9E42EAA-6669-4FC3-9329-97EC02DB0CDF.m4v">
-    Watch pre-recorded lecture on "Architectural Decay in Software Systems: Symptoms, Causes, and Remedies"</a> -->
   </td>
-    <td></td>
+    <td></td> <!-- hw -->
     </tr>
 
     <tr>
     <td>4th hour</td>
     <td align=center>Fri</td>
-    <td></td> <!-- topic -->
+    <td>Project Work Day</td> <!-- topic -->
     <td></td> <!-- project -->
+    <td></td> <!-- hw -->
     </tr> 
         
     <tr>
     <td rowspan="2"><div align="center">Week 15</div></td>
     <td>Apr 28</td>
     <td align=center>Tu</td>
-    <td>Last day of classes</td>
+    <td>Project Final Presentations</td>
     <td></td>
+    <td></td> <!-- hw -->
   </tr> 
     
 </table>
 
-<!--  Grading  -->
+<!-- Additional resources  -->
+<hr/>
+<h1>Project</h1>
+Projects will focus on ``impactful" applications of machine learning focused on three areas: (1) health, (2) education, or (3) climate change. See more details on the project 
+<a href="spring2020_project.html">here</a>. 
+
+<!-- Additional resources  -->
 <hr/>
 <h1>Additional Resources</h1>
+    <li>
+        <a href="http://cs229.stanford.edu/syllabus.html">Course handouts</a> from Stanford CS 229 by Andrew Ng</li>
+
+<!-- Additional resources  -->
+<hr/>
+<h1>Scribe Notes</h1>
+    Scribe notes. 
+
+
+<!-- Inclusion and Equity -->
+<hr/>
+<h1>Inclusion and Equity</h1>
+
+Different learning styles (quiet)
+
+<!-- Honor Code -->
+<hr/>
+<h1>Honor Code</h1>
+
+<!-- Honor Code -->
+<hr/>
+<h1>Communication Policy</h1>
+Email returned 9-5 Mon-Fri
 
 
 <!-- </ul>  -->          
