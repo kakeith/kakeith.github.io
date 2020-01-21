@@ -2,7 +2,7 @@
 <html> 
 <head> 
     <title>CS 335: Machine Learning</title> 
-    <link href="style.css" rel="stylesheet" type="text/css" /> 
+    <link href="../../style.css" rel="stylesheet" type="text/css" /> 
     <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -15,12 +15,6 @@
             <h1>CS 335: Machine Learning</h1>
         </div>
 
-<!--  Course Description  -->
-    <hr/>
-    <h1>Course Description</h1>
-        <p> Description 
-        </p>
-
 <!--  Logistics  -->
     <hr/>
     <h1>Logistics</h1>
@@ -29,34 +23,38 @@
         <br>
         <b>Fourth Hour:</b> Fri 8:30am-9:20am
         <br>
-        <b>Room:</b> TBD
-        <br>
-        <b>Textbook:</b> TBD
+        <b>Room:</b> Clapp Laboratory 206 
         <br>
         <b>Office hours:</b> Tues 1-3pm, Fri 9:30-11:30am, Clapp 200
         <br>
-        <b>Piazza</b>: <a href="piazza.com/mtholyoke/spring2020/cs335/home">piazza.com/mtholyoke/spring2020/cs335/home</a>
+        <b>Piazza</b>: <a href="https://www.piazza.com/mtholyoke/spring2020/cs335/home">https://www.piazza.com/mtholyoke/spring2020/cs335/home</a>
         <br>
-        <b>Gradescope</b>: 
+        <b>Gradescope</b>: <a href="https://www.gradescope.com/courses/76996">https://www.gradescope.com/courses/76996</a>
         </p>
 
 <!--  Learning Goals  -->
 <hr/>
 <h1>Learning Goals</h1>
-    
-    Students will learn <b>fundamental concepts in machine learning</b> and by the end of the course will be able to:
-    <li>Derive analytical solutions for mathematical fundamentals of ML (partial derivatives, matrix multiplication)</li>  
-    <li>Identify the relationship between regularization and training size on training and test accuracy</li>
-    <li>Derive and implement learning algorithms</li>
-    <li>Bias-variance tradeoff</li>
-    <li>Implement a backpropagation algorithm by hand</li>
-    <li>Bias-variance tradeoff</li>
-    
+    The general learning goals of this course are to: 
+        <li>Learn how to design basic machine learning algorithms. </li> 
+        <li>Identify and understand specific, widely-used machine learning algorithms.</li>  
+        <li>Learn how to apply machine learning algorithms to read data and evaluate the algorithms' performance. </li> 
+
+    </br>
+    More concretely, by the end of the semester, the students will be expected to have mastered <b>fundamental concepts in machine learning</b> including:
+        <li>Derive analytical solutions for mathematical fundamentals of ML (partial derivatives, matrix multiplication, etc.)</li>  
+        <li>Identify the relationship between regularization and training size on training and test accuracy</li>
+        <li>Derive and implement learning algorithms</li>
+        <li>Implement a backpropagation algorithm by hand</li>
+        <li>Understand and articulate bias-variance tradeoff</li>
+        
     </br>
     In regards to <b>application of machine learning</b> to a data science projects, students will leave the course able to: 
-    <li>Identify important machine learning problems</li>
-    <li>Technically-proficient writing</li>
-    <li>Verbally explain problems</li>
+        <li>Identify important machine learning problems</li>
+        <li>Verbally explain problems</li>
+        <li>Produce technically-proficient writing</li>
+        <li>Implement machine learning tools on real data and evaluate performance</li>
+    
 
 <!--  Grading  -->
 <hr/>
@@ -77,11 +75,11 @@ The <b>project</b> grade (30%) is further broken down to:
     <li> Final report &mdash; 10% </li>
 
 <br>
-Class engagement grades are a composite of non-graded assignments including but not limited to: (a) in-class worksheets, (b) posting on Piazza, (c) writing up scribe notes. 
+Class engagement grades are a composite of non-graded assignments including but not limited to: (a) in-class worksheets, (b) posting on Piazza, (c) optional work (like HW0) and fourth-hour work.  
 
 <br>
 <br>
-Homework deadlines are strict. Homework not turned in ontime will NOT be accepted. 
+Homework deadlines are strict. Homework not turned in on time will NOT be accepted. 
 
 <br>
 <br>
@@ -98,7 +96,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <th>date</th>
     <th>day</th>
     <th>topic</th>
-    <th>reading</th>
     <th>homework</th>
     <!-- <th><div align="center">project</div></th> -->
     <th>project</th>
@@ -109,8 +106,7 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Jan 21</td>
     <td align=center>Tu</td>
     <td>Introduction and Syllabus</td> <!-- topic -->
-    <td></td> <!-- reading -->
-    <td rowspan="3" bgcolor=pink><div align="center">
+    <td rowspan="4" bgcolor=pink><div align="center">
         Homework 0
         <br>
         Due: Fri Jan 31 11:59pm 
@@ -121,7 +117,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Jan 23</td>
     <td align=center>Th</td>
     <td>Linear Regression in one variable</td> <!-- topic -->
-    <td></td> <!-- reading -->
     <td></td> <!-- homework -->
     <td></td> <!-- project -->
     </tr>
@@ -130,7 +125,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>4th hour</td>
     <td align=center>Fri</td>
     <td>Calculus review</td> <!-- topic -->
-    <td></td> <!-- reading -->
     <td></td> <!-- homework -->
     <td></td> <!-- project -->
     </tr>
@@ -140,17 +134,15 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td rowspan="3"><div align="center">Week 2</div></td>
     <td>Jan 28</td>
     <td align=center>Tu</td>
-    <td>Gradient descent</td> <!-- topic -->
-    <td></td> <!-- reading -->
+    <td>Gradient descent</td>
     <td></td> <!-- homework -->
     <td></td> <!-- project -->
-    </tr>   
+    </tr> 
     
     <tr>
     <td>Jan 30</td>
     <td align=center>Th</td>
     <td>Linear algebra and vectorized code</td> <!-- topic -->
-    <td></td> <!-- reading -->
     <td rowspan="4" bgcolor=pink><div align="center">
         Homework 1
         <br/>
@@ -172,7 +164,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Feb 4</td>
     <td align=center>Tu</td>
     <td>Multivariate linear regression</td> <!-- topic -->
-    <td></td> <!-- reading -->
     <td></td>
     </tr>   
 
@@ -180,7 +171,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Feb 6</td>
     <td align=center>Th</td>
     <td></td> <!-- topic -->
-    <td></td> <!-- reading -->
     <td></td> <!-- hw -->
     </tr>
 
@@ -188,7 +178,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>4th hour</td>
     <td align=center>Fri</td>
     <td>Probability review </td> <!-- topic -->
-    <td></td> <!-- reading -->
     <td rowspan="3" bgcolor=pink><div align="center">
         Homework 2
         <br/>
@@ -202,7 +191,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Feb 11</td>
     <td align=center>Tu</td>
     <td>Logistic Regression</td> <!-- topic -->
-    <td></td> <!-- reading -->
     <td></td>
     </tr>
 
@@ -210,7 +198,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Feb 13</td>
     <td align=center>Th</td>
     <td>Multiclass classification</td> <!-- topic -->
-    <td></td> <!-- reading -->
     <td></td> <!-- hw -->
     </tr>
 
@@ -222,7 +209,7 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td rowspan="4" bgcolor=pink><div align="center">
         Homework 3 
         </br>
-        Due: Fri Feb 22 11:59pm
+        Due: Fri Feb 21 11:59pm
         </div></td>
     <td></td> <!-- hw -->
     </tr>
@@ -232,7 +219,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Feb 18</td>
     <td align=center>Tu</td>
     <td>Overfitting &  regularization</td> <!-- topic -->
-    <td></td> <!-- reading -->
     <td></td> <!-- hw -->
     </tr>   
     
@@ -257,8 +243,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Feb 25</td>
     <td align=center>Tu</td>
     <td>Project descriptions and Ethics in ML</td> <!-- topic -->
-    <td></td> <!-- reading -->
-    <td></td> <!-- reading -->
     <td rowspan="6" bgcolor="#33FF33"><div align="center">
         Idea Proposal
     <br/>
@@ -269,7 +253,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Feb 27</td>
     <td align=center>Th</td>
     <td colspan="2"><font color="red">Celebration of Learning 1</font> (in class)</td> <!-- topic -->
-    <td></td> <!-- reading -->
     </tr> 
 
     <tr>
@@ -290,14 +273,12 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Mar 3</td>
     <td align=center>Tu</td>
     <td></td> <!-- topic -->
-    <td></td> <!-- reading -->
     </tr>
 
     <tr>
     <td>Mar 5</td>
     <td align=center>Th</td>
     <td></td> <!-- topic -->
-    <td></td> <!-- reading -->
     </td>
     </tr>
 
@@ -313,6 +294,8 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Mar 10</td>
     <td align=center>Tu</td>
     <td>Neural nets + Backprop </td> <!-- topic -->
+    BRAIN CANDY: SHOW A DEMO OF THE NEURAL NET STUFF! 
+
     <td><a href="http://cs231n.github.io/optimization-2/">Standford backprop notes</a></td> <!-- reading -->
     <td rowspan="2" bgcolor="#33FF33"><div align="center">
         Paper Selection
@@ -324,7 +307,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Mar 12</td>
     <td align=center>Th</td>
     <td></td> <!-- topic -->
-    <td></td> <!-- reading -->
     <td></td> <!-- hw -->
     </td>
     </tr>
@@ -332,7 +314,7 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <tr>
     <td>4th hour</td>
     <td align=center>Fri</td>
-    <td></td> <!-- topic -->
+    <td>Literature review practice</td> <!-- topic -->
     <td></td> <!-- project -->
     <td></td> <!-- hw -->
     <td rowspan="4" bgcolor="#33FF33"><div align="center">
@@ -352,7 +334,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Mar 24</td>
     <td align=center>Tu</td>
     <td></td> <!-- topic -->
-    <td></td> <!-- reading --> 
     <td></td>
     <td></td>
 
@@ -360,7 +341,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Mar 26</td>
     <td align=center>Th</td>
     <td></td> <!-- topic -->
-    <td></td> <!-- reading -->
     <td></td> 
     </tr>
 
@@ -382,7 +362,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Mar 31</td>
     <td align=center>Tu</td>
     <td></td> <!-- topic -->
-    <td></td> <!-- reading -->
     <td></td> <!-- hw -->
     </tr>
     
@@ -390,7 +369,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Apr 2</td>
     <td align=center>Th</td>
      <td></td> <!-- topic -->
-    <td></td> <!-- reading -->
     <td></td> <!-- hw -->
     </tr>
 
@@ -407,7 +385,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Apr 7</td>
     <td align=center>Tu</td>
      <td></td> <!-- topic -->
-    <td></td> <!-- reading -->
     <td></td> <!-- hw -->
     </td>
     </tr>   
@@ -416,7 +393,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Apr 9</td>
     <td align=center>Th</td>
     <td></td> <!-- topic -->
-    <td></td> <!-- reading -->
     <td></td> <!-- hw -->
     </tr> 
 
@@ -444,7 +420,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Apr 16</td>
     <td align=center>Th</td>
     <td><font color="red">[End Unit 2]</font></td> <!-- topic -->
-    <td></td> <!-- reading -->
     <td></td> <!-- hw -->
     <td></td>
     </tr>
@@ -462,7 +437,6 @@ There will be two ``celebrations of learning." These will be in-class, closed-bo
     <td>Apr 21</td>
     <td align=center>Tu</td>
     <td>Project Work Day</td> <!-- topic -->
-    <td></td> <!-- reading -->
     <td></td> <!-- hw -->
     </tr> 
     
@@ -502,15 +476,34 @@ Projects will focus on ``impactful" applications of machine learning focused on 
 
 <!-- Additional resources  -->
 <hr/>
-<h1>Additional Resources</h1>
+<h1>Resources</h1>
     <li>
-        <a href="http://cs229.stanford.edu/syllabus.html">Course handouts</a> from Stanford CS 229 by Andrew Ng</li>
-
-<!-- Additional resources  -->
-<hr/>
-<h1>Scribe Notes</h1>
-    Scribe notes. 
-
+        <a href="http://faculty.marshall.usc.edu/gareth-james/ISL/">An Introduction to Statistical Learning</a> by James, Witten, Hastie, Tibshirani: an accessible undergraduate machine learning textbook with statistics focus. 
+    </li>
+    <li>
+        <a href="http://cs229.stanford.edu/syllabus.html">Course handouts</a> from Stanford CS 229 by Andrew Ng
+    </li>
+<h3>Python</h3>
+    Programming assignments will use Python, NumPy, and SciPy. The required Python environment is <b>Anaconda 2019.10 distribution of Python 3.7</b>. If you are not working with this environment, your work will not be graded and you will not receive help debugging.  
+    <br>
+    <br>
+    See this page on <a href="https://people.cs.umass.edu/~sheldon/teaching/cs335/python.html">getting started with Python for CS 335</a>. 
+    <br>
+    <br>
+    Resources for Python:
+    <li>
+        <a href="https://developers.google.com/edu/python/">Google's Python class </a>
+    </li>
+    <li>
+        <a href="http://heather.cs.ucdavis.edu/~matloff/Python/PLN/FastLanePython.pdf">Norm Matloff’s Fast Lane to Python</a>
+    </li>
+    <li>
+        <a href="http://cs231n.github.io/python-numpy-tutorial/">Stanford CS 231 Python Numpy Tutorial</a>
+    </li>
+    <li>
+        <a href="http://cs231n.github.io/ipython-tutorial/">
+        Stanford CS 231 IPython tutorial </a>
+    </li>
 
 <!-- Inclusion and Equity -->
 <hr/>
@@ -522,10 +515,12 @@ Different learning styles (quiet)
 <hr/>
 <h1>Honor Code</h1>
 
+TODO: put in Mt. Holyoke's honor code here!
+
 <!-- Honor Code -->
 <hr/>
 <h1>Communication Policy</h1>
-Email returned 9-5 Mon-Fri
+Responses by the instructor to email and Piazza can be expected in a timely manner Monday through Friday from 9am-5pm. Communication during evenings and weekends will not be answered until the following business day except in extreme circumstances. 
 
 
 <!-- </ul>  -->          
