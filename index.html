@@ -9,10 +9,22 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head> 
 
+<style>
+    .scrollable {
+    height: 400px; /* or any value */
+    overflow-y: auto;
+}
+</style>
+
 <body> 
 	<div class="maincontainer">
 		<div class="header"><h1>Katherine A. Keith</h1></div>
-		<div class="main">
+
+		<div class="main">   
+<!--         </br>
+        </br> -->
+       <!--  <hr></hr> -->
+
 			<p> I am a PhD student in Computer Science working with <a href="http://brenocon.com/"> Brendan O'Connor</a> and the 
             <a href="http://slanglab.cs.umass.edu/"> SLANG lab </a>
              at the 
@@ -22,12 +34,18 @@
                 My research focuses on improving <b>natural language processing</b> methods for <b>computational social science</b> applications with unstructured text data. I'm interested in developing better social measurements of text (e.g. extracting pragmatic signals, entities, relations, or events from text) and using these measurements in corpus-centered descriptive analyses, predictive tasks, and causal inference.
             </p>
 
+            <p>
+            Navigate to: <a href="#teach">Teaching</a>, <a href="#research">Research</a>, <a href="#recent">Recent News</a>, <a href="#misc">Misc</a>.
+            </p>
+                <ul type="circle">   
+
+
 <!-- <ul class="icons-ul"> -->	
-<ul type="circle">		
 
-<br />
+<hr></hr>
 
-<h1>Teaching</h1>
+<a id="teach"><h1>Teaching</h1></a>
+
     <li>
         Spring 2020 &mdash; 
         <!-- <a href="spring2020_ml.html">CS335: Machine Learning</a>,  -->
@@ -43,8 +61,15 @@ CS191: Ethical Issues Surrounding Artificial Intelligence Systems and Big Data, 
     <a href="https://people.cs.umass.edu/~brenocon/anlp2018/"> CS685: Advanced NLP</a>, UMass Amherst 
      </li>
 
+     <h2>Sample of Recorded Teaching Lectures:</h2>
 
-<h1>Publications</h1>
+     <iframe width="336" height="189" src="https://www.youtube.com/embed/6n-L6re521A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+     <iframe width="336" height="189" src="https://www.youtube.com/embed/3yYA61YfSXs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<a id="research"><h1>Research</h1></a>
+<!-- <h3>Publications:</h3> -->
     <li>
     <a href="https://arxiv.org/abs/2010.04706">
     Uncertainty over Uncertainty: Investigating the Assumptions, Annotations, and Text Measurements of Economic Policy Uncertainty. </a>
@@ -106,7 +131,14 @@ CS191: Ethical Issues Surrounding Artificial Intelligence Systems and Big Data, 
         <a href="https://vimeo.com/238233559">[video]</a>
     </li> 
 
-<h1>Recent News</h1>
+<h2>Sample of Recorded Research Presentations:</h2>
+<iframe src="https://player.vimeo.com/video/238233559?byline=0&portrait=0" width="384" height="192" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<!-- <p><a href="https://vimeo.com/238233559">Identifying civilians killed by police with distantly supervised entity-event extraction-Katherine Keith, Abram Handler, Michael</a> from <a href="https://vimeo.com/aclweb">ACL</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+
+<a id="recent"><h1>Recent News</h1></a>
+    <div class="scrollable">
+
+
     <li> April 2020 &mdash; <a href="https://andrewhalterman.com/">Andy Halterman</a>, <a href="https://people.cs.umass.edu/~smsarwar/">Sheikh Sarwar</a>, and I were awarded a $5,000 <a href="https://www.kaggle.com/open-data-research-grant-2020-awardees#project-title-13">Kaggle Open Data Research Grant</a> for "Semantic Role Annotations For Real-World Political Texts."
     </li>
 
@@ -149,7 +181,9 @@ Male Ally Workshop </a>
 for graduate computer science students. 
     </li>
 
-<h1>Misc.</h1>
+    </div>
+
+<a id="misc"><h1>Misc.</h1></a>
 
 <p>
 In the past, I really enjoyed studying Chinese.
