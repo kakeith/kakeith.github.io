@@ -56,7 +56,7 @@ body {
     font-size:13px;
 }
 
-.main a, .contact a, .footer a { color:#A90A0A; text-decoration:none; }
+.main a, .contact a, .footer a { color:#380ca8; text-decoration:none; }
 
 .maincontainer h1, .header h1, .main h1 { 
     font-family: 'Roboto', sans-serif;
@@ -83,7 +83,6 @@ body {
 .main h2 { 
     font-size:18px; 
 }
-
 
 
 .contact p {
