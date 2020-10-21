@@ -10,10 +10,26 @@
 </head> 
 
 <style>
+    /*stuff for the scrollbar*/
     .scrollable {
     height: 400px; /* or any value */
-    overflow-y: auto;
-}
+    overflow-y: scroll;
+    }
+
+    .scrollarea-content {
+    min-height:101%;
+    }
+
+    ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+        }
+
+    ::-webkit-scrollbar-thumb {
+      border-radius: 4px;
+      background-color: rgba(0, 0, 0, .5);
+      box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+        }
 </style>
 
 <body> 
@@ -145,6 +161,7 @@ CS191: Ethical Issues Surrounding Artificial Intelligence Systems and Big Data, 
 <hr></hr>
 <h1><a id="recent">Recent News</a></h1>
     <div class="scrollable">
+    <div id='scrollarea-content'>
 
 
     <li> April 2020 &mdash; <a href="https://andrewhalterman.com/">Andy Halterman</a>, <a href="https://people.cs.umass.edu/~smsarwar/">Sheikh Sarwar</a>, and I were awarded a $5,000 <a href="https://www.kaggle.com/open-data-research-grant-2020-awardees#project-title-13">Kaggle Open Data Research Grant</a> for "Semantic Role Annotations For Real-World Political Texts."
@@ -189,6 +206,7 @@ Male Ally Workshop </a>
 for graduate computer science students. 
     </li>
 
+    </div>
     </div>
 
 <hr></hr>
