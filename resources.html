@@ -1,0 +1,220 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Katherine A. Keith</title> 
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
+  
+  <!-- add icons -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <script src="https://kit.fontawesome.com/f1a62b90a7.js" crossorigin="anonymous"></script>
+
+  <meta name="theme-color" content="#fafafa">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- CREATE SCROLLABLE CONTENT -->
+  <style>
+    /*stuff for the scrollbar*/
+    .scrollable {
+    height: 400px; /* or any value */
+    overflow-y: scroll;
+    }
+
+    .scrollarea-content {
+    min-height:101%;
+    }
+
+    ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+        }
+
+    ::-webkit-scrollbar-thumb {
+      border-radius: 4px;
+      background-color: rgba(0, 0, 0, .5);
+      box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+        }
+</style>
+
+
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+
+  <!--Website header-->
+  <div id="introduction-wrapper">
+    <img id="main-profile-pic" src="./images/kk.jpg" alt="Katherine Keith">
+
+    <div id="bio">
+      <h1>Katherine A. Keith</h1>
+      <p></p>
+      <p style="margin: 0"> <i class="fa-solid fa-envelope fa-lg"></i> &nbsp; kak5 (at) williams (dot) edu</p>
+      <p style="margin: 0"><i class="fa-solid fa-file fa-lg"></i> &nbsp; <a href="vita/cv.pdf">curriculum vitae (CV)</a></p>
+      <p></p>
+      <div class="social">
+        <span class="schol"><a href="https://www.semanticscholar.org/author/Katherine-A.-Keith/145137850"><i class="ai ai-semantic-scholar-square ai-2x"></i></a> &nbsp;&nbsp; </span>
+        <span class="gh"><a href="https://scholar.google.com/citations?user=8848cTsAAAAJ&hl=en"><i class="ai ai-google-scholar-square ai-2x"></i> </a> &nbsp;&nbsp; </span>
+        <span class="lin"><a href="https://www.linkedin.com/in/katherine-keith-96b66b44/"><i class="fa-brands fa-linkedin fa-2x"></i></a> &nbsp;&nbsp;</span>
+        <span class="gh"><a href="https://github.com/kakeith"><i class="fa-brands fa-github fa-2x"></i></i></a> &nbsp;&nbsp;</span>
+        <span class="twit"><a href="https://twitter.com/katakeith"><i class="fab fa-twitter-square fa-2x"></i></a> &nbsp;&nbsp; </span>
+        <span class="mast"><a rel="me" href="https://sigmoid.social/@katakeith"><i class="fab fa-mastodon fa-2x"></i></a> </span>
+      </div>
+    </div>
+  </div>
+  <!--end of website header-->
+
+  <!--Navigation bar-->
+  <div id="menu">
+    <div>
+      <a href="index.html">Home</a>
+    </div>
+    <div>
+      <a href="research.html">Research</a>
+    </div>
+    <div>
+      <a href="teaching.html">Teaching</a>
+    </div>
+    <script>
+      $(function () {
+        const current = window.location.pathname.split("/");
+        $('#menu div a').each(function(){
+          const $this = $(this);
+          // if the current path is like this link, make it active
+          if (current.indexOf($this.attr("href")) !== -1) {
+            $this.parent().addClass("now");
+          }
+        })
+      });
+    </script>
+  </div>
+  <!--end of Navigation bar-->
+
+  <!--Actual tab content-->
+  <div id="main">
+  <h2>Resources...</h2>
+
+  <h3>For Those Interested in Learning More about NLP</h3>
+    
+  <!--Begin List-->
+  <ul>
+    <li class="paper_wrapper">
+    Chris Pott's CS 224U: NLP <a href="https://web.stanford.edu/class/cs224u/index.html">Podcast</a>
+    </li>
+
+  <li class="paper_wrapper">
+    blah
+  </li>
+  </ul> 
+  <!--End List-->
+
+  <h3>For Those Interested in Learning More about Causal Inference</h3>
+    
+  <!--Begin List-->
+  <ul>
+    <li class="paper_wrapper">
+    <a href="https://www.youtube.com/channel/UCiiOj5GSES6uw21kfXnxj3A/videos">The Online Causal Inference Seminar</a> (on YouTube!)
+    </li>
+
+  <li class="paper_wrapper">
+    blah
+  </li>
+  </ul> 
+  <!--End List-->
+
+  <h3>For Those Interested in Learning about My Research Philosophy/Approach</h3>
+
+  <!--Begin List-->
+  <ul>
+    <li class="paper_wrapper">
+    <a href="https://github.com/textproclab/lab-manual/blob/master/lab-manual.md">Agile Research</a>
+    </li>
+
+  <li class="paper_wrapper">
+    blah
+  </li>
+  </ul> 
+  <!--End List-->
+
+  <h3>For Those Interested in PhD Programs in NLP/AI/CompSci</h3>
+
+  <!--Begin List-->
+  <ul>
+  <li class="paper_wrapper">
+    CS PhD Statements of Purpose Notion <a href="https://cs-sop.notion.site/cs-sop/CS-PhD-Statements-of-Purpose-df39955313834889b7ac5411c37b958d">Repository</a>
+    </li>
+
+  <li class="paper_wrapper">
+    blah
+  </li>
+  </ul> 
+  <!--End List-->
+
+  <h3>For Those Interested in Becoming CompSci Faculty at PUIs</h3>
+
+  <!--Begin List-->
+  <ul>
+  <li class="paper_wrapper">
+    Evan Peck's CS-PUI <a href="https://cs-pui.github.io/">site</a>
+    </li>
+
+  <li class="paper_wrapper">
+    blah
+  </li>
+  </ul> 
+  <!--End List-->
+
+  <h3>For Those Interested in Teaching Computer Science</h3>
+
+  <!--Begin List-->
+  <ul>
+  <li class="paper_wrapper">
+    Dr. Kristin Stephens-Martinez's <a href="https://csedpodcast.org/blog/">CS-Ed Podcast</a>
+    </li>
+
+  <li class="paper_wrapper">
+    blah
+  </li>
+  </ul> 
+  <!--End List-->
+
+  <h3>For Those Interested in Academia (in general)</h3>
+
+  <!--Begin List-->
+  <ul>
+  <li class="paper_wrapper">
+    blah
+    </li>
+
+  <li class="paper_wrapper">
+    blah
+  </li>
+  </ul> 
+  <!--End List-->
+  </div>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
