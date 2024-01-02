@@ -7,7 +7,7 @@
 % http://www.LaTeXTemplates.com
 %
 % Original author:
-% Trey Hunner (http://www.treyhunner.com/)
+% Trey Hunner (http://www..com/)
 %
 % Important note:
 % This template requires the resume.cls file to be in the same directory as the
@@ -42,6 +42,10 @@
   \addtocounter{footnote}{-1}%
   \endgroup
 }
+
+%% Highlighting
+\usepackage{soul}
+\usepackage{xcolor}
 
 %---------------------------
 
@@ -141,7 +145,6 @@ Department of Computer Science \hfill {\em Williamstown, MA} \\
 \begin{rSection}{Journal Publications (Peer-Reviewed)}
 \begin{etaremune}
 
-%highlight
 \item Causal Inference in Natural Language Processing: Estimation, Prediction, Interpretation and Beyond. Amir Feder, \textbf{Katherine A. Keith}, Emaad Manzoor, Reid Pryzant, Dhanya Sridhar, Zach Wood-Doughty, Jacob Eisenstein, Justin Grimmer, Roi Reichart, Margaret E. Roberts, Brandon M. Stewart, Victor Veitch, Diyi Yang. \emph{Transactions of the Association for Computational Linguistics (TACL)}. 2022. 
 
 \end{etaremune}
@@ -190,6 +193,13 @@ In \emph{Proceedings of North American Chapter of the Association for Computatio
 
 \begin{rSection}{Workshop Publications (Lightly Peer-Reviewed)}
 \begin{etaremune}
+
+\item Literary Intertextual Semantic Change Detection:
+Application and Motivation for Evaluating Models on Small Corpora.
+Jackson Ehrenworth and \textbf{Katherine A.~Keith}. 
+In \emph{Proceedings of the 4th Workshop on Computational Approaches to Historical Language Change at EMNLP}. 2023. 
+
+
 \item Text as Causal Mediators: Research Design for Causal Estimates of Differential Treatment of Social Groups via Language Aspects. \textbf{Katherine A. Keith}, Douglas Rice, and Brendan O'Connor. In \emph{Proceedings of the First Workshop on Causal Inference and Natural Language Processing (CI+NLP) at EMNLP}. 2021.  
 
 \item Uncertainty over Uncertainty: Investigating the Assumptions, Annotations, and Text Measurements of Economic Policy Uncertainty. \textbf{Katherine A. Keith}, Christoph Teichmann, Brendan O’Connor, and Edgar Meij.  In \emph{Proceedings of the Fourth Workshop on Natural Language Processing and Computational Social Science (NLP+CSS) at EMNLP}. 2020.
@@ -199,7 +209,6 @@ In \emph{Proceedings of North American Chapter of the Association for Computatio
 
 \begin{rSection}{Grants}
 \begin{itemize}
-  %highlight 
 \item Young Investigator Grant from the Allen Institute of Artificial Intelligence (\$100,000). November 2022. 
 \item  Social Science Research Council (SSRC)/Summer Institutes in Computational Social Science (SICSS) Research Grant. 2021 (\$1,200). With Ian Stewart. 
 \item  Kaggle Open Data Research Grant. 2020 (\$5,000). With Andy Halterman and Sheikh Sarwar.
@@ -217,7 +226,8 @@ In \emph{Proceedings of North American Chapter of the Association for Computatio
 
 \textbf{Instructor}
 \begin{itemize}
-  % highlight 
+  \item CSCI 104: Data Science and Computing For All (Williams College, Fall 2023)
+  %\item CSCI 104: Data Science and Computing For All (Williams College, Fall 2023)
   \item CSCI 375: Natural Language Processing (Williams College, Spring 2023)
   \item CSCI 104: Understanding Data Through Computation (Williams College, Fall 2022)
   \item CS335: Machine Learning (Mount Holyoke College, Spring 2020)
@@ -278,9 +288,9 @@ In \emph{Proceedings of North American Chapter of the Association for Computatio
 % During summer research experience for undergraduates (REU), I met with students daily to guide them through technical research challenges. When advising an undergraduate honors thesis, I met with the student for one hour weekly to address any technical issues and outline future work. 
 
 \begin{itemize}
+\item Angus Li (Undergraduate Research, Summer 2023; RA Fall 2023)
 \item Jacob Chen (Undergraduate Research, Summer 2023)
 \item Serah Park (Undergraduate Research, Summer 2023)
-\item Angus Li (Undergraduate Research, Summer 2023)
 \item Elijah Tamarchenko (Second Reader on Undergraduate Honors Thesis, AY 2022-2023)
 \item Lucy Li (PhD intern at AI2, 2022) -- \emph{Winner of AI2's Outstanding Intern of the Year Award}
 \item Sirius Just (Undergraduate Honors Thesis, AY 2019-2020; REU, Summer 2019) 
@@ -294,6 +304,7 @@ In \emph{Proceedings of North American Chapter of the Association for Computatio
 
 
 \begin{rSubsection}{Workshops on Academia: Research, Teaching, and/or Mentoring}{}{}{}
+\item Faculty Success Program (12-weeks online) by National Center for Faculty Development and Diversity (NCFCC). Fall 2023.---\emph{Intensive online program over the course of twelve weeks consisting of weekly group calls, weekly homeworks, and one-on-one coaching.}
 \item Participated in \emph{Claiming Williams Day} ``Creating an Inclusive Classroom'' Workshop with Dr. Anika Daniels-Osaze. February 2, 2023.
 \item Participated in the Computing Research Association (CRA)'s Career Mentoring Workshop. Washington DC, February 24-25, 2022. 
 \item Computing Research Association of Women (CRA-W) Graduate Cohort (2017, 2018)  
@@ -310,16 +321,19 @@ In \emph{Proceedings of North American Chapter of the Association for Computatio
 \begin{rSection}{Speaking Engagements}
 
 \begin{rSubsection}{Invited Talks}{}{}{}
-\item University of Massachusetts Amherst, COMPSCI 692L: Seminar, Natural Language Processing, ``RCT Rejection Sampling for Causal Estimation Evaluation'' --- May 2, 2023
+\item Discussant, New Directions in Analyzing Text as Data (TADA), 2023.
+\item University of Iowa, Computer Science Colloquium. ``Melding NLP and Causal Inference.'' September 8, 2023. 
 \item Williams College Statistics Colloquium ``Automated Event Extraction for
 News-Based Counterdata''---October 19, 2022.
-\item Georgia Institute of Technology, CS-6471: Computational Social Science, ``Text and Causal Estimation: Text as Causal Confounders and Mediators''---March 28, 2022
 \item Williams College Computer Science Colloquium---November 15, 2019
 \item Rutgers University's Natural Language Processing Group---November 6, 2019
 \item Lewis \& Clark College's Mathematical Sciences Colloquium---September 24, 2018
 \end{rSubsection}
 
 \begin{rSubsection}{Guest Lectures}{}{}{}
+\item Stanford University, CS 293 / EDUC 473: Empowering Educators via Language Technology.``Causal Effect Estimation with Text Data''--- October 25, 2023. 
+\item University of Massachusetts Amherst, COMPSCI 692L: Seminar, Natural Language Processing, ``RCT Rejection Sampling for Causal Estimation Evaluation'' --- May 2, 2023
+\item Georgia Institute of Technology, CS-6471: Computational Social Science, ``Text and Causal Estimation: Text as Causal Confounders and Mediators''---March 28, 2022
 \item University of Massachusetts Amherst, Natural Language Processing---November 13, 2020 
 \item Mount Holyoke College, Natural Language Processing---November 13, 2019
 \item Mount Holyoke College, Natural Language Processing---October 10, 2018
@@ -362,11 +376,16 @@ News-Based Counterdata''---October 19, 2022.
 \begin{rSection}{Service \& Outreach}
 
 \begin{rSubsection}{Williams College Service}{}{}{}
+\item Colloquium Organizer, Computer Science Department, AY 2023-2024
+\item Computer Science Women Organizer, Computer Science Department, AY 2023-2024
 \item Underrepresented Identities in Computer Science (UniCS) Faculty Mentor, Computer Science Department, AY 2022-2023
 \end{rSubsection}
 
-\begin{rSubsection}{Research Community Leadership Roles}{}{}{}
-% highlight 
+\begin{rSubsection}{Leadership Roles in Research Community}{}{}{}
+% highlight\
+\item Co-organizer, \emph{NLP+CSS} workshop (to be held at NAACL 2024). 
+\item Area Chair, EMNLP 2023.
+\item Organizing Committee/Program Committee. New Directions in Analyzing Text as Data (TADA), 2023.
 \item Co-organizer, \emph{NLP+CSS} workshop at EMNLP. December 7, 2022. 
 \item Co-organizer, \emph{CS+NLP 201: Beyond the Basics} online tutorial series (Fall 2021)
 \item Co-organizer and Panel Moderator, \emph{First Workshop on Causal Inference and Natural Language Processing} at EMNLP 2021
@@ -374,7 +393,9 @@ News-Based Counterdata''---October 19, 2022.
 
 \noindent
 \begin{rSubsection}{Reviewer / Referee}{}{}{}
-\item \emph{TADA}: 2022
+\item \emph{TACL}: 2023
+\item \emph{ACL Rolling Review (ARR)}: Since 2022
+\item \emph{TADA}: 2022, 2023
 \item \emph{Journal of Data Science}: February, 2022
 \item \emph{Science Advances}: October, 2021
 \item \emph{Workshop of Teaching NLP}: 2021
@@ -387,6 +408,7 @@ News-Based Counterdata''---October 19, 2022.
 \end{rSubsection}
 
 \begin{rSubsection}{Other Outreach Roles}{}{}{}
+\item Panelist, Teaching at Teaching Intensive Institutions, University of Massachusetts Amherst (October 20, 2023)
 \item Panelist, University of Massachusetts CSWomen panel on ``Applying to Research Internships and Jobs'' (November 19, 2021)
 \item Panelist, NSF CSGrad4US Mentoring Program panel on ``What I wish I knew when I started graduate school'' (November 24, 2021)
 \item 
