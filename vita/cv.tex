@@ -36,6 +36,9 @@
 \usepackage{ragged2e}
 \usepackage{etaremune}
 
+\usepackage{amsmath}
+\newcommand{\smalldot}{\raisebox{0.2ex}{\tiny$\bullet$}}
+
 \newcommand\blfootnote[1]{%
   \begingroup
   \renewcommand\thefootnote{}\footnote{#1}%
@@ -79,7 +82,7 @@ M.S. in Computer Science, February 2020
 
 {\bf Lewis \& Clark College} \hfill {2011--2015} \\ 
 B.A. in Mathematics with departmental honors, summa cum laude \hfill {\em Portland, OR} \\
-Minor: Chinese Language\\
+Minor: Chinese Language
 % GPA 3.95/4.0 \\
 \end{rSection}
 
@@ -106,12 +109,12 @@ Department of Computer Science \hfill {\em Williamstown, MA} \\
 
 \begin{rSubsection}{Research Intern}{June--August 2020}{AI Discovery Team, Bloomberg}{Remote (London, UK team)}
 \item Mentors: Dr.~Edgar Meij, Dr.~Christoph Teichmann
-\item Resulted in publication at the \emph{Workshop on Natural Language Processing and Computational Social Science (NLP+CSS) at EMNLP, 2020}.
+%\item Resulted in publication at the \emph{Workshop on Natural Language Processing and Computational Social Science (NLP+CSS) at EMNLP, 2020}.
 \end{rSubsection}
 
 \begin{rSubsection}{Research Intern}{May--August 2018}{CTO Data Science Team, Bloomberg}{New York, New York}
 \item Mentor: Dr.~Amanda Stent
-\item Resulted in publication at the \emph{Association of Computational Linguistics (ACL), 2019}.
+%\item Resulted in publication at the \emph{Association of Computational Linguistics (ACL), 2019}.
 \end{rSubsection}
 
 %------------------------------------------------
@@ -126,20 +129,24 @@ Department of Computer Science \hfill {\em Williamstown, MA} \\
 
 \begin{rSection}{Grants}
 \begin{itemize}
-\item Young Investigator Grant from the Allen Institute of Artificial Intelligence (\$100,000). November 2022. 
-\item  Social Science Research Council (SSRC)/Summer Institutes in Computational Social Science (SICSS) Research Grant. 2021 (\$1,200). With Ian Stewart. 
-\item  Kaggle Open Data Research Grant. 2020 (\$5,000). With Andy Halterman and Sheikh Sarwar.
+\item \emph{Massachusetts Life Sciences Center}'s Workforce Development Captial Grant. With Stephen N.~Freund, Noah J.~Sandstrom, and Victor A.~Cazares. Awarded July 2024. (\$744,446 + \$83,200 matching funds)  
+\item Young Investigator Grant from the \emph{Allen Institute of Artificial Intelligence}. Awarded November 2022. (\$100,000) 
+\item  \emph{Social Science Research Council (SSRC)/Summer Institutes in Comp utational Social Science (SICSS)} Research Grant. With Ian Stewart. Awarded 2021. (\$1,200)
+\item \emph{Kaggle} Open Data Research Grant. Awarded 2020. With Andy Halterman and Sheikh Sarwar. (\$5,000)
 \end{itemize}
 
 \end{rSection}
 
+\newpage
 \begin{rSection}{Awards \& Honors}
 \begin{itemize}
+\item Bloomberg Data Science Ph.D. Fellowship (2019-2021)  
 \item Outstanding Reviewer, EMNLP 2020
 \item Awarded \emph{distinction} for Ph.D. candidacy portfolio submitted to the College of Information and Computer Sciences at University of Massachusetts Amherst (December 2019) 
-\item Bloomberg Data Science Ph.D. Fellowship (awarded May 2019)  
 \item Empirical Methods in Natural Language Processing (EMNLP) Student Travel Scholarship (2017)
 \item Paul Utgoff Memorial Graduate Scholarship in Machine Learning (2016) 
+\item Rena J.~Ratte Memorial Award, Lewis \& Clark College (2015)-- \emph{``This is the highest academic award given at Lewis \& Clark and is given annually to one undergraduate of senior standing whose abilities and commitment have combined to produce work which is consistently of the greatest distinction.''} 
+\item NCAA Division III Cross-Country All-Academic (2012) 
 \end{itemize} 
 \end{rSection}
 
@@ -234,16 +241,38 @@ In \emph{Proceedings of the 4th Workshop on Computational Approaches to Historic
 \begin{rSection}{Teaching Experience}
 
 \textbf{Instructor}
-\begin{itemize}
-  \item CSCI 136: Data Structures \& Advanced Programming (Williams College, Spring 2024)
-  \item CSCI 104: Data Science and Computing For All (Williams College, Fall 2023)
-  %\item CSCI 104: Data Science and Computing For All (Williams College, Fall 2023)
-  \item CSCI 375: Natural Language Processing (Williams College, Spring 2023)
-  \item CSCI 104: Understanding Data Through Computation (Williams College, Fall 2022)
-  \item CS335: Machine Learning (Mount Holyoke College, Spring 2020)
-  \item CS191: Ethical Issues Surrounding Artificial Intelligence Systems and Big Data, First Year Seminar (University of Massachusetts Amherst, Fall 2019)
 
+\begin{itemize}
+    \item CSCI 136: Data Structures \& Advanced Programming (Williams College, Spring 2024)
+    \item[] ~~~\emph{2 lecture sections, 4 lab sections, 59 students, 9 TAs}
+
+    \item CSCI 104: Data Science and Computing For All (Williams College, Fall 2023; Co-instructor with Dr. Stephen Freund)
+    \item[] ~~~\emph{2 instructors splitting: 2 lecture sections, 4 lab sections, 61 students, 8 TAs}
+
+    \item CSCI 375: Natural Language Processing (Williams College, Spring 2023)
+    \item[] ~~~\emph{2 lecture sections, 46 students, 2 TAs}
+
+    \item CSCI 104: Understanding Data Through Computation (Williams College, Fall 2022; Co-instructor with Dr. Stephen Freund)
+    \item[] ~~~\emph{2 instructors splitting: 2 lecture sections, 4 lab sections, 48 students, 8 TAs}
+
+    \item CS335: Machine Learning (Mount Holyoke College, Spring 2020)
+    \item[] ~~~\emph{1 lecture section, 19 students}
+
+    \item CS191: Ethical Issues Surrounding Artificial Intelligence Systems and Big Data, First Year Seminar (University of Massachusetts Amherst, Fall 2019)
 \end{itemize}
+
+
+% \begin{itemize}
+%   \item CSCI 136: Data Structures \& Advanced Programming (Williams College, Spring 2024) 
+
+%   \item CSCI 104: Data Science and Computing For All (Williams College, Fall 2023)
+%   %\item CSCI 104: Data Science and Computing For All (Williams College, Fall 2023)
+%   \item CSCI 375: Natural Language Processing (Williams College, Spring 2023)
+%   \item CSCI 104: Understanding Data Through Computation (Williams College, Fall 2022)
+%   \item CS335: Machine Learning (Mount Holyoke College, Spring 2020)
+%   \item CS191: Ethical Issues Surrounding Artificial Intelligence Systems and Big Data, First Year Seminar (University of Massachusetts Amherst, Fall 2019)
+
+% \end{itemize}
 
 \textbf{Graduate Teaching Assistant}
 \begin{itemize}
@@ -389,18 +418,19 @@ News-Based Counterdata''---October 19, 2022.
 \item Underrepresented Identities in Computer Science (UniCS) Faculty Mentor, Computer Science Department, AY 2022-2023
 \end{rSubsection}
 
-\begin{rSubsection}{Leadership Roles in Research Community}{}{}{}
+\begin{rSubsection}{Leadership Roles in the Research Community}{}{}{}
 % highlight\
-\item Co-organizer, \emph{NLP+CSS} workshop (to be held at NAACL 2024). 
-\item Area Chair, EMNLP 2023.
+\item Co-organizer, \emph{NLP+CSS} workshop at NAACL 2024.  June 21, 2024.
+\item Area Chair, \emph{Computational Social Science and Cultural Analytics Track}, EMNLP 2023.
 \item Organizing Committee/Program Committee. New Directions in Analyzing Text as Data (TADA), 2023.
 \item Co-organizer, \emph{NLP+CSS} workshop at EMNLP. December 7, 2022. 
 \item Co-organizer, \emph{CS+NLP 201: Beyond the Basics} online tutorial series (Fall 2021)
-\item Co-organizer and Panel Moderator, \emph{First Workshop on Causal Inference and Natural Language Processing} at EMNLP 2021
+\item Co-organizer and Panel Moderator, \emph{First Workshop on Causal Inference and Natural Language Processing} at EMNLP 2021. November 10, 2021.
 \end{rSubsection}
 
 \noindent
 \begin{rSubsection}{Reviewer / Referee}{}{}{}
+\item \emph{NeurIPS}: 2024
 \item \emph{NSF Ad-Hoc Reviewer}: 2024
 \item \emph{TACL}: 2023
 \item \emph{ACL Rolling Review (ARR)}: Since 2022
@@ -497,7 +527,7 @@ News-Based Counterdata''---October 19, 2022.
 
 
 \begin{rSubsection}{Workshops on Academia: Research, Teaching, and/or Mentoring}{}{}{}
-\item Faculty Success Program (12-weeks online) by National Center for Faculty Development and Diversity (NCFCC). Fall 2023.---\emph{Intensive online program over the course of twelve weeks consisting of weekly group calls, weekly homeworks, and one-on-one coaching.}
+\item Faculty Success Program (12-weeks online; Fall 2023) by National Center for Faculty Development and Diversity (NCFDD).---\emph{Intensive online program over the course of twelve weeks consisting of weekly group calls, weekly homeworks, and one-on-one coaching.}
 \item Participated in \emph{Claiming Williams Day} ``Creating an Inclusive Classroom'' Workshop with Dr. Anika Daniels-Osaze. February 2, 2023.
 \item Participated in the Computing Research Association (CRA)'s Career Mentoring Workshop. Washington DC, February 24-25, 2022. 
 \item Computing Research Association of Women (CRA-W) Graduate Cohort (2017, 2018)  
