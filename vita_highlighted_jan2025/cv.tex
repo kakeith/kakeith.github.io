@@ -1,0 +1,578 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+% 
+% Original author:
+% Trey Hunner (http://www..com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\usepackage{enumitem}
+\setlist{leftmargin=0em}
+\renewcommand{\labelitemi}{$\cdot$}
+
+%%MINE THAT I ADDED
+
+\usepackage{lipsum}
+\usepackage{datetime}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+\usepackage{etaremune}
+
+\usepackage{amsmath}
+\newcommand{\smalldot}{\raisebox{0.2ex}{\tiny$\bullet$}}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+%% Highlighting
+\usepackage{soul}
+\usepackage{xcolor}
+
+%---------------------------
+
+\name{Katherine A. Keith} % Your name
+\address{
+%(406)~$\cdot$~539~$\cdot$~3888 \\ 
+kak5@williams.edu \\
+https://kakeith.github.io/} % Your phone number and email
+
+\begin{document}
+
+%%----------------------------------------------------------------------------------------
+%%  RESEARCH INTERESTS
+%%----------------------------------------------------------------------------------------
+%
+%\begin{rSection}{Research Interests}
+%Natural language processing, machine learning, computational social science 
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of Massachusetts Amherst} \hfill {2016--2021} \\ 
+Ph.D. in Computer Science, September 2021 \hfill {\em Amherst, MA} \\
+M.S. in Computer Science, February 2020
+ 
+% GPA 3.91/4.0 \\
+
+{\bf Lewis \& Clark College} \hfill {2011--2015} \\ 
+B.A. in Mathematics with departmental honors, summa cum laude \hfill {\em Portland, OR} \\
+Minor: Chinese Language
+% GPA 3.95/4.0 \\
+\end{rSection}
+
+\begin{rSection}{Academic Appointments}
+{\bf Assistant Professor} \hfill {July 2022--Present} \\
+Department of Computer Science \hfill {\em Williamstown, MA} \\ 
+ Williams College
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research Experience}
+
+\begin{rSubsection}{Postdoctoral Young Investigator}{September 2021--June 2022}{Allen Institute for Artificial Intelligence}{Seattle, WA}
+\item Research with the Semantic Scholar team
+\end{rSubsection}
+
+\begin{rSubsection}{Graduate Research Assistant}{September 2016--August, 2021}{University of Massachusetts, Amherst}{Amherst, MA}
+\item Natural language processing, machine learning, and computational social science research
+\item Advisor: Dr. Brendan O'Connor 
+\end{rSubsection}
+
+\begin{rSubsection}{Research Intern}{June--August 2020}{AI Discovery Team, Bloomberg}{Remote (London, UK team)}
+\item Mentors: Dr.~Edgar Meij, Dr.~Christoph Teichmann
+%\item Resulted in publication at the \emph{Workshop on Natural Language Processing and Computational Social Science (NLP+CSS) at EMNLP, 2020}.
+\end{rSubsection}
+
+\begin{rSubsection}{Research Intern}{May--August 2018}{CTO Data Science Team, Bloomberg}{New York, New York}
+\item Mentor: Dr.~Amanda Stent
+%\item Resulted in publication at the \emph{Association of Computational Linguistics (ACL), 2019}.
+\end{rSubsection}
+
+%------------------------------------------------
+
+% \begin{rSubsection}{Undergraduate Research Assistant (Economics)}{May--August 2014}{Lewis \& Clark College}{Portland, OR}
+% \item Developed an agent-based simulation of intergenerational wealth transfer in medieval England
+% \item Funding: Andrew W. Mellon Collaborative Student-Faculty Research Grant
+% \item Advisor: Dr. Clifford Bekar
+% \end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Grants}
+\begin{itemize}
+\item \hl{Massachusetts Life Sciences Center's Workforce Development Capital Grant. With Stephen N.~Freund, Noah J.~Sandstrom, and Victor A.~Cazares. Awarded July 2024. (\$744,446 + \$83,200 matching funds)}  
+\item Young Investigator Grant from the \emph{Allen Institute for Artificial Intelligence}. Awarded November 2022. (\$100,000) 
+\item  \emph{Social Science Research Council (SSRC)/Summer Institutes in Computational Social Science (SICSS)} Research Grant. With Ian Stewart. Awarded 2021. (\$1,200)
+\item \emph{Kaggle} Open Data Research Grant. Awarded 2020. With Andy Halterman and Sheikh Sarwar. (\$5,000)
+\end{itemize}
+
+\end{rSection}
+
+\newpage
+\begin{rSection}{Awards \& Honors}
+\begin{itemize}
+\item Bloomberg Data Science Ph.D. Fellowship (2019-2021)  
+\item Outstanding Reviewer, EMNLP 2020
+\item Awarded \emph{distinction} for Ph.D. candidacy portfolio submitted to the College of Information and Computer Sciences at University of Massachusetts Amherst (December 2019) 
+\item Empirical Methods in Natural Language Processing (EMNLP) Student Travel Scholarship (2017)
+\item Paul Utgoff Memorial Graduate Scholarship in Machine Learning (2016) 
+\item Rena J.~Ratte Memorial Award, Lewis \& Clark College (2015)-- \emph{``This is the highest academic award given at Lewis \& Clark and is given annually to one undergraduate of senior standing whose abilities and commitment have combined to produce work which is consistently of the greatest distinction.''} 
+\item NCAA Division III Cross-Country All-Academic (2012) 
+\end{itemize} 
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%   SELECTED PUBLICATIONS 
+%----------------------------------------------------------------------------------------
+%
+%----------------------------------------------------------------------------------------
+%   INDUSTRY EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Journal Publications (Peer-Reviewed)}
+\begin{etaremune}
+
+
+\item RCT Rejection Sampling for Causal Estimation Evaluation. 
+\textbf{Katherine A. Keith}, Sergey Feldman, David Jurgens, Jonathan Bragg, and Rohit Bhattacharya.
+\emph{Transactions on Machine Learning Research (TMLR)}. 2023.  
+
+
+\item Causal Inference in Natural Language Processing: Estimation, Prediction, Interpretation and Beyond. Amir Feder, \textbf{Katherine A. Keith}, Emaad Manzoor, Reid Pryzant, Dhanya Sridhar, Zach Wood-Doughty, Jacob Eisenstein, Justin Grimmer, Roi Reichart, Margaret E. Roberts, Brandon M. Stewart, Victor Veitch, Diyi Yang.
+\emph{Transactions of the Association for Computational Linguistics (TACL)}. 2022.  
+
+\end{etaremune}
+\end{rSection}
+
+\begin{rSection}{Conference Proceedings (Peer-Reviewed)}
+\begin{etaremune}
+
+\item \hl{Proximal Causal Inference With Text Data.
+    Jacob M. Chen, Rohit Bhattacharya, and \textbf{Katherine A.~Keith}.
+    In  Conference on Neural Information Processing Systems (NeurIPS). 2024.} 
+
+\item Causal Matching with Text Embeddings: A Case Study in Estimating the Causal Effects of Peer Review Policies.
+    Raymond Z. Zhang, Neha Nayak Kennard, 
+    Daniel Scott Smith, Daniel A. McFarland, 
+    Andrew McCallum, and \textbf{Katherine A. Keith}.
+    In \emph{Findings of the Association for Computational Linguistics (ACL Findings)}. 2023.
+
+\item Words as Gatekeepers: Measuring Discipline-specific
+    Terms and Meanings in Scholarly Publications.
+    Li Lucy, Jesse Dodge, David Bamman, and \textbf{Katherine A. Keith}.
+    In \emph{Findings of the Association for Computational Linguistics (ACL Findings)}. 2023.
+
+%highlight 
+\item Paying Attention to the Algorithm Behind the Curtain: Bringing Transparency to YouTube's Demonetization Algorithms.
+    Arun Dunna, \textbf{Katherine A. Keith}, Ethan Zuckerman, Narseo Vallina-Rodriguez, Brendan O'Connor, Rishab Nithyanand. 
+    In \emph{ACM Conference On Computer-Supported Cooperative Work And Social Computing (CSCW)}. 2022. 
+
+\item Corpus-Level Evaluation for Event QA: The IndiaPoliceEvents Corpus Covering the 2002 Gujarat Violence. Andrew Halterman$^*$, \textbf{Katherine A. Keith}$^*$, Sheikh Muhammad Sarwar$^*$, and Brendan O'Connor ($^*$ indicates joint first-authors).  In \emph{Findings of the Association for Computational Linguistics (ACL Findings)}. 2021.
+
+\item Text and Causal Inference: A Review of Using Text to Remove Confounding from Causal Estimates. \textbf{Katherine A. Keith}, David Jensen, and Brendan O'Connor. In \emph{Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL)}. 2020.  
+
+\item Modeling financial analysts' decision making via the pragmatics and semantics of earnings calls. 
+\textbf{Katherine A. Keith} and Amanda Stent. 
+In \emph{Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL)}.  2019. 
+
+\item Uncertainty-aware generative models for inferring document class prevalence.
+\textbf{Katherine A. Keith} and Brendan O'Connor. 
+In \emph{Proceedings of Empirical Methods in Natural Language Processing (EMNLP)}. 2018. 
+
+\item Monte Carlo Syntax Marginals for Exploring and Using Dependency Parses.
+\textbf{Katherine A. Keith}, Su Lin Blodgett, and Brendan O'Connor.
+In \emph{Proceedings of North American Chapter of the Association for Computational Linguistics} (NAACL). 2018.
+
+\item Identifying civilians killed by police with distantly supervised entity-event extraction. 
+\textbf{Katherine A. Keith}, Abram Handler, Michael Pinkham, Cara Magliozzi, Joshua McDuffie, and Brendan O'Connor. In \emph{Proceedings of Empirical Methods in Natural Language Processing (EMNLP)}. 2017. 
+
+\end{etaremune}
+\end{rSection}
+
+\begin{rSection}{Workshop Publications (Lightly Peer-Reviewed)}
+\begin{etaremune}
+
+\item Democratizing Machine Learning for Interdisciplinary Scholars:
+Reflections on the NLP+CSS Tutorial Series. 
+\textbf{Katherine A.~Keith} and Ian Stewart. 
+In \emph{Proceedings of the 1st Workshop on Teaching for NLP}. 2023. 
+
+\item Literary Intertextual Semantic Change Detection:
+Application and Motivation for Evaluating Models on Small Corpora.
+Jackson Ehrenworth and \textbf{Katherine A.~Keith}. 
+In \emph{Proceedings of the 4th Workshop on Computational Approaches to Historical Language Change at EMNLP}. 2023. 
+
+
+\item Text as Causal Mediators: Research Design for Causal Estimates of Differential Treatment of Social Groups via Language Aspects. \textbf{Katherine A. Keith}, Douglas Rice, and Brendan O'Connor. In \emph{Proceedings of the First Workshop on Causal Inference and Natural Language Processing (CI+NLP) at EMNLP}. 2021.  
+
+\item Uncertainty over Uncertainty: Investigating the Assumptions, Annotations, and Text Measurements of Economic Policy Uncertainty. \textbf{Katherine A. Keith}, Christoph Teichmann, Brendan O’Connor, and Edgar Meij.  In \emph{Proceedings of the Fourth Workshop on Natural Language Processing and Computational Social Science (NLP+CSS) at EMNLP}. 2020.
+
+\end{etaremune}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   TEACHING EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Teaching Experience}
+
+\textbf{Instructor}
+
+\begin{itemize}
+    \item \hl{CSCI 375: Natural Language Processing (Williams College, Fall 2024)}
+    \item[] \hl{~~~1 lecture section, 26 students, 1 TA}
+
+    \item \hl{CSCI 136: Data Structures \& Advanced Programming (Williams College, Spring 2024)}
+    \item[] ~~~\hl{2 lecture sections, 4 lab sections, 59 students, 9 TAs}
+
+    \item CSCI 104: Data Science and Computing For All (Williams College, Fall 2023; Co-instructor with Dr. Stephen Freund)
+    \item[] ~~~\emph{2 instructors splitting: 2 lecture sections, 4 lab sections, 61 students, 8 TAs}
+
+    \item CSCI 375: Natural Language Processing (Williams College, Spring 2023)
+    \item[] ~~~\emph{2 lecture sections, 46 students, 2 TAs}
+
+    \item CSCI 104: Understanding Data Through Computation (Williams College, Fall 2022; Co-instructor with Dr. Stephen Freund)
+    \item[] ~~~\emph{2 instructors splitting: 2 lecture sections, 4 lab sections, 48 students, 8 TAs}
+
+    \item CS335: Machine Learning (Mount Holyoke College, Spring 2020)
+    \item[] ~~~\emph{1 lecture section, 19 students}
+
+    \item CS191: Ethical Issues Surrounding Artificial Intelligence Systems and Big Data, First Year Seminar (University of Massachusetts Amherst, Fall 2019)
+\end{itemize}
+
+
+% \begin{itemize}
+%   \item CSCI 136: Data Structures \& Advanced Programming (Williams College, Spring 2024) 
+
+%   \item CSCI 104: Data Science and Computing For All (Williams College, Fall 2023)
+%   %\item CSCI 104: Data Science and Computing For All (Williams College, Fall 2023)
+%   \item CSCI 375: Natural Language Processing (Williams College, Spring 2023)
+%   \item CSCI 104: Understanding Data Through Computation (Williams College, Fall 2022)
+%   \item CS335: Machine Learning (Mount Holyoke College, Spring 2020)
+%   \item CS191: Ethical Issues Surrounding Artificial Intelligence Systems and Big Data, First Year Seminar (University of Massachusetts Amherst, Fall 2019)
+
+% \end{itemize}
+
+\textbf{Graduate Teaching Assistant}
+\begin{itemize}
+\item CS685: Advanced Natural Language Processing (University of Massachusetts Amherst, Spring 2018)
+\end{itemize}
+
+% % \begin{rSubsection}
+% % {Instructor \\}{}{Williams College}{}
+% %   \item CSCI 104: Understanding Data Through Computation (Fall 2023)
+% % \end{rSubsection}
+
+% \begin{rSubsection}
+% {Instructor\\
+% CS335: Machine Learning}
+% {Spring 2020}
+% {Mount Holyoke College}{}
+% \item Sole instructor for 19 students. Designed and delivered lectures, held office hours, developed problem sets, designed exams, and graded problem sets and exams.
+
+% \end{rSubsection}
+
+% \begin{rSubsection}{Instructor \\CS191: Computer Science First Year Seminar}{Fall 2019}{University of Massachusetts Amherst}{}
+% \item Co-designed curriculum on ``Ethical Issues Surrounding Artificial Intelligence Systems and Big Data.''
+% \item Led two weekly discussion sections comprising of 19 students each. 
+% \end{rSubsection}
+
+% \begin{rSubsection}{Graduate Teaching Assistant \\ CS685: Advanced Natural Language Processing}{Spring 2018}{University of Massachusetts Amherst}{}
+% \item Assisted students with course material and homework during weekly office hours.
+% \item Co-designed homework assignments, graded literature review assignment and in-class presentations. 
+% \end{rSubsection}
+
+\begin{rSubsection}{Online Tutorial Instructor}{}{}{}
+\item \emph{Aggregated Classification Pipelines: Propagating Probabilistic Assumptions from Start to Finish.} NLP+CSS 201 Online Tutorial Series. March 30, 2022. 
+\end{rSubsection}
+
+\begin{rSubsection}{Fulbright English Teaching Assistant}{August 2015--June 2016}{U.S. Department of State}{Kinmen, Taiwan}
+\item Taught first through sixth grade ESL courses in a public elementary school.
+\item Facilitated multi-cultural dialogue and events.
+\end{rSubsection}
+
+% \begin{rSubsection}{Mathematics Tutor}{January 2012--May 2015}{Lewis \& Clark College}{Portland, OR}
+% \item Tutored students in Calculus I, Calculus II, and Linear Algebra.
+% \item Tutored in the Symbolic and Quantitative Resource Center (SQRC). 
+% \end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   MENTEES SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Student Research Mentoring}
+% During summer research experience for undergraduates (REU), I met with students daily to guide them through technical research challenges. When advising an undergraduate honors thesis, I met with the student for one hour weekly to address any technical issues and outline future work. 
+
+\textbf{Undergraduate Honors Thesis Advisees}
+\begin{itemize}[leftmargin=0.5cm]
+\item \hl{Alisa Kanganis, AY 2024-2025}
+\end{itemize}
+
+\textbf{Student Research Mentees}
+\begin{itemize}[leftmargin=0.5cm]
+    \item \hl{Jeeyon Kang (Research Assistant, Fall 2024)}
+    \item Jacob Chen (Undergraduate Research, Summer 2023; \hl{Post-baccalaureate Research Assistant, Spring 2024})
+\item \hl{Justin Cheigh (Research Independent Study, Spring 2024)}
+\item Angus Li (Undergraduate Research, Summer 2023; Research Assistant Fall 2023)
+
+\item Serah Park (Undergraduate Research, Summer 2023)
+\item Lucy Li (PhD intern at AI2, 2022) -- \emph{Winner of AI2's Outstanding Intern of the Year Award}
+\item Sirius Just (Undergraduate Honors Thesis, AY 2019-2020; REU, Summer 2019) 
+\item Tamas Palfi (REU, Summer 2019) 
+\item Hieu Phan (REU, Summer 2019) 
+\item Aaron Mueller (REU, Summer 2017) 
+\end{itemize}
+
+
+\textbf{Undergraduate Honors Thesis Committee Member (Second Reader)}
+
+    \begin{itemize}[leftmargin=0.5cm]
+    \item Max Ellis (AY 2023-2024)
+    \item Elijah Tamarchenko (AY 2022-2023)
+    \end{itemize}
+
+\textbf{PhD Dissertation Committee Member}
+
+\begin{itemize}[leftmargin=0.5cm]
+    \item \hl{Tanise Ceron. University of Stuttgart, Germany. October 14, 2024.} 
+\end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   INVITED TALKS 
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Speaking Engagements}
+
+\begin{rSubsection}{Invited Talks}{}{}{}
+\item \hl{University of Stuttgart. '"Let Me Just Interrupt You":
+Estimating Gender Effects in Supreme
+Court Oral Arguments.'---October 14, 2024.}
+\item \hl{Joint Statistical Meeting (JSM), ``Text as a High-Dimensional Causal Confounding Variable: 
+An Empirical Framework for Evaluation.''---August 5, 2024.}
+\item \hl{American Causal Inference Conference, ``Statistical Innovations in Causal Inference with Text as Data: Emerging Trends and Future Directions" invited session. Talk entitled ``Text as a High-Dimensional Causal Confounding Variable: An Empirical Framework for Evaluation'' ---May 16, 2024.}
+\item Institute for Analytical Sociology (online). ``Melding NLP and Causal Inference" --- February 8, 2023. 
+\item Discussant, New Directions in Analyzing Text as Data (TADA), 2023.
+\item University of Iowa, Computer Science Colloquium. ``Melding NLP and Causal Inference'' --- September 8, 2023. 
+\item Williams College Statistics Colloquium ``Automated Event Extraction for
+News-Based Counterdata''---October 19, 2022.
+\item Williams College Computer Science Colloquium---November 15, 2019
+\item Rutgers University's Natural Language Processing Group---November 6, 2019
+\item Lewis \& Clark College's Mathematical Sciences Colloquium---September 24, 2018
+\end{rSubsection}
+
+\begin{rSubsection}{Guest Lectures}{}{}{}
+\item \hl{Williams College, ECON 460: Women, Work, and the World Economy. "Let Me Just Interrupt You: Estimating Gender Effects in Supreme Court Oral Arguments."---November 13, 2024.}
+\item Stanford University, CS 293 / EDUC 473: Empowering Educators via Language Technology.``Causal Effect Estimation with Text Data''--- October 25, 2023. 
+\item University of Massachusetts Amherst, COMPSCI 692L: Seminar, Natural Language Processing, ``RCT Rejection Sampling for Causal Estimation Evaluation'' --- May 2, 2023
+\item Georgia Institute of Technology, CS-6471: Computational Social Science, ``Text and Causal Estimation: Text as Causal Confounders and Mediators''---March 28, 2022
+\item University of Massachusetts Amherst, Natural Language Processing---November 13, 2020 
+\item Mount Holyoke College, Natural Language Processing---November 13, 2019
+\item Mount Holyoke College, Natural Language Processing---October 10, 2018
+\item University of Massachusetts Amherst, Advanced Natural Language Processing---April 26, 2018
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   PRESENTATIONS AND POSTERS  
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Other Projects}
+
+%  \begin{itemize}
+%  \item ``Fairkit-learn:  A multi-objective optimization approach to fairness in machine learning classifiers." With Sam Witty. \emph{Advanced Software Engineering: Analysis and Evaluation} final class project (Spring 2018) 
+%  \item ``Class-conditional language modeling with LSTMs." \emph{Machine Learning} final class project (Fall 2017)
+%  \item ``Linguistically Motivated LSTM Architectures for Relation Extraction." With Sheshera Mysore. \emph{Neural Networks} final class project (Fall 2017)  
+%  \item ``Temporal, Embedding-Based Soft Deduplication of Police Killing Events." With Su Lin Blodgett and Aaron Schein. \emph{Database Design \& Implementation} final class project (Spring 2017)  
+%  \item  ``Probabilistic Modeling of Trending Words on Twitter." With Su Lin Blodgett.  \emph{Statistical Machine Learning} final class project (Fall 2016)  
+%  \item ``Machine Learning Classification of Job Loss Twitter Messages." With Boya Ren. \emph{Introduction to Natural Language Processing} final class project (Fall 2016) 
+%  \item ``Extending the Pontryagin Maximum Principle of Optimal Control Theory for Inequality Constraints and Discounting." \emph{Lewis \& Clark College Mathematics Department Senior Honors Thesis} (Spring 2015)
+%  \item ``An Agent-Based Simulation of Intergenerational Mobility Amongst the English Medieval Peasantry." \emph{Andrew W. Mellon Student-Faculty Research Project} (Summer 2014) 
+%  \end{itemize} 
+
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   SELECTED COURSES 
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Selected Courses}
+% Machine Learning, Neural Networks, Probabilistic Graphical Models, Advanced Algorithms and Analysis, Advanced Software Engineering: Analysis and Evaluation, Database Design \& Implementation, Introduction to Natural Language Processing, Advanced Probability \& Statistics, Real Analysis, Abstract Algebra, Game Theory, Numerical Analysis, Differential Equations, Linear Algebra 
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   SERVICE 
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Service \& Outreach}
+
+\begin{rSubsection}{Williams College Service}{}{}{}
+\item \hl{Science Executive Committee, At-large Junior Faculty Member, AY 2024-2025}
+\item Colloquium Organizer, Computer Science Department, AY 2023-2024
+\item Women in Computer Science (WiCS) Organizer, Computer Science Department, AY 2023-2024, \hl{AY 2024-2025}
+\item Underrepresented Identities in Computer Science (UniCS) Faculty Mentor, Computer Science Department, AY 2022-2023, \hl{AY 2024-2025}
+\end{rSubsection}
+
+\begin{rSubsection}{Leadership Roles in the Research Community}{}{}{}
+% highlight\
+\item Co-organizer, \emph{NLP+CSS} workshop at NAACL 2024.  June 21, 2024.
+\item Area Chair, \emph{Computational Social Science and Cultural Analytics Track}, EMNLP 2023.
+\item Organizing Committee/Program Committee. New Directions in Analyzing Text as Data (TADA), 2023.
+\item Co-organizer, \emph{NLP+CSS} workshop at EMNLP. December 7, 2022. 
+\item Co-organizer, \emph{NLP+CSS 201: Beyond the Basics} online tutorial series (Fall 2021)
+\item Co-organizer and Panel Moderator, \emph{First Workshop on Causal Inference and Natural Language Processing} at EMNLP 2021. November 10, 2021.
+\end{rSubsection}
+
+\noindent
+\begin{rSubsection}{Reviewer / Referee}{}{}{}
+\item \hl{CLeaR: 2025}
+\item \hl{NeurIPS: 2024}
+\item \hl{NSF~Ad-Hoc~Reviewer: 2024}
+\item \emph{TACL}: 2023
+\item \emph{ACL Rolling Review (ARR)}: Since 2022
+\item \emph{TADA}: 2022, 2023
+\item \emph{Journal of Data Science}: February, 2022
+\item \emph{Science Advances}: October, 2021
+\item \emph{Workshop of Teaching NLP}: 2021
+\item \emph{ACL}: 2020, 2021, 2023
+\item \emph{NAACL}: 2019, 2021
+\item \emph{EACL}: 2021 
+\item \emph{CoNLL}: 2020 
+\item \emph{EMNLP}: 2020 
+\item \emph{ICWSM}: 2019, 2020
+\end{rSubsection}
+
+\begin{rSubsection}{Other Outreach Roles}{}{}{}
+\item Panelist, Teaching at Teaching Intensive Institutions, University of Massachusetts Amherst (October 20, 2023)
+\item Panelist, University of Massachusetts CSWomen panel on ``Applying to Research Internships and Jobs'' (November 19, 2021)
+\item Panelist, NSF CSGrad4US Mentoring Program panel on ``What I wish I knew when I started graduate school'' (November 24, 2021)
+\item 
+{PhD Applicant Support Mentor for Underrepresented Students} ({November 2020}) {University of Massachusetts Amherst}
+\item 
+{Panelist, CS Graduate School Q\&A Panel} ({May 1, 2020}) {Cape Cod Community College}
+
+\item 
+{Co-chair, CSWomen} ({February~2019--January 2020}) {University of Massachusetts Amherst Computer Science Women's Group}
+
+\item 
+{Social Co-Chair,  CSWomen} ({January 2017--January 2019}) 
+{University of Massachusetts Amherst Computer Science Women's Group}
+
+\item {Student Volunteer, Women in Engineering and Computing Career Day} ({October 28, 2019})
+{University of Massachusetts Amherst}{}
+
+
+\item {``What is computer science?" 7th Grade Guest Lecture} ({Jan. 3, 2018 and Jan. 7, 2019}) 
+{Chief Joseph Middle School, Bozeman, Montana}
+
+\item {Organizer, CICS Graduate Male Ally Workshop Series} ({September 2017-- May 2018}) {University of Massachusetts Amherst}
+
+\item {Student Volunteer, Girls~Inc.~Eureka!~Summer~Workshop} ({August 1 \& 3, 2017}) {University of Massachusetts Amherst}
+
+\item {Student Volunteer, Women in Engineering and Computing Career Day} ({October 24, 2016})
+{University of Massachusetts Amherst}{}
+\end{rSubsection}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%   TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+%    \begin{rSection}{Technical Strengths}
+%    Python (scipy, scikit-learn, numpy, pandas), Pytorch, R, SQL  
+
+%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+
+%Machine learning modeling & CRF's, Logistic Regression, SVM's, Gibbs sampling, EM algorithm \\
+%Protocols \& APIs & XML, JSON, SOAP, REST \\
+%Primary programming language & Python\\
+%Deep learning library & Pytorch \\
+%Python modules & scipy, scikit-learn, numpy, pandas \\
+%Databases & SQL, Postgres\\
+%Deep learning libraries & Tensorflow, Pytorch \\
+%Development Tools & sublime, emacs, tmux \\
+% Data visualization: matplotlib, omnigraffle, ggplot2
+%\end{tabular}
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Undergraduate Awards \& Honors}
+% \begin{itemize}
+% \item Fulbright ETA Grantee with the U.S. Department of State (2015--16)
+% \item Rhodes Scholarship Finalist (2015) 
+% \item Marshall Scholarship Finalist (2015) 
+% \item Rena J.~Ratte Memorial Award, Lewis \& Clark College (2015)-- \emph{``This is the highest academic award given at Lewis \& Clark and is given annually to one undergraduate of senior standing whose abilities and commitment have combined to produce work which is consistently of the greatest distinction.''} 
+% %\url{https://college.lclark.edu/dean/faculty-and-student-awards/}
+% % \item Robert B. Pamplin Jr. Society Fellow, Lewis \& Clark College (2012--2015)
+% % \item Dean's List, Lewis \& Clark College (2011--2015)
+% % %\item Phi Beta Kappa Member (2014--2015)
+% % \item Pi Mu Epsilon Member (2014--2015)
+% % \item Barbara Hirschi Neely Four-Year Full-Tuition Scholarship Recipient, Lewis \& Clark College (2011--2015)
+% \item NCAA Division III Cross-Country All-Academic (2012) 
+% \item Lewis \& Clark College Cross-Country Four-Year Varsity Letter Winner (2011--2015)
+% \end{itemize} 
+% \end{rSection}
+
+\begin{rSection}{Professional Development}
+
+
+\begin{rSubsection}{Academic Workshops and Trainings}{}{}{}
+\item \hl{Inclusive Hiring Strategies for Faculty Search Committees (Williams College). September 13, 2024.}
+\item Faculty Success Program (12-weeks online; Fall 2023) by National Center for Faculty Development and Diversity (NCFDD).---\emph{Intensive online program over the course of twelve weeks consisting of weekly group calls, weekly homeworks, and one-on-one coaching.}
+\item Participated in \emph{Claiming Williams Day} ``Creating an Inclusive Classroom'' Workshop with Dr. Anika Daniels-Osaze. February 2, 2023.
+\item Participated in the Computing Research Association (CRA)'s Career Mentoring Workshop. Washington DC, February 24-25, 2022. 
+\item Computing Research Association of Women (CRA-W) Graduate Cohort (2017, 2018)  
+\end{rSubsection}
+
+\begin{rSubsection}{Roundtables}{}{}{}
+\item Williams Rountable Program: Research Discussion Group, Spring 2023. (\$500 stipend)
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Foreign Languages}
+\textbf{Chinese (Mandarin)} \\
+HSK Level 4 (test passed April 16, 2016) \\
+CET Beijing: 16-week language-intensive immersion program (Spring 2014)
+\end{rSection}
+
+\blfootnote{Updated: \today}
+
+\end{document}
